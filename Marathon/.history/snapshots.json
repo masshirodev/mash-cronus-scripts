@@ -1,0 +1,19 @@
+{
+  "snapshots": [
+    {
+      "id": "1773278632",
+      "timestamp": 1773278632,
+      "label": "v2"
+    },
+    {
+      "id": "1773511491",
+      "timestamp": 1773511491,
+      "label": "v3 start"
+    },
+    {
+      "id": "1773804409",
+      "timestamp": 1773804409,
+      "label": "working v6"
+    }
+  ]
+}

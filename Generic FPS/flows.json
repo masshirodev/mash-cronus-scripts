@@ -1,0 +1,4301 @@
+{
+  "version": 1,
+  "flows": [
+    {
+      "id": "750cd2a1-4b61-4035-8957-a9480dd24a24",
+      "name": "Menu Flow",
+      "version": 2,
+      "flowType": "menu",
+      "nodes": [
+        {
+          "id": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "type": "menu",
+          "label": "Module Settings",
+          "position": {
+            "x": 297.4598848732801,
+            "y": 98.84331071590532
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [
+            {
+              "id": "c98ce0a0-a523-4cfb-8835-90a2a5bf28d3",
+              "type": "menu-item",
+              "label": "Aim Assist",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "label": "Aim Assist (Polar)",
+                "prefixSpacing": 1,
+                "cursorStyle": "prefix",
+                "font": "default",
+                "prefixChar": ">",
+                "__auto_module": "aimassist_polar"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "85edb829-ad08-4230-ae82-60b083b77e10",
+              "type": "menu-item",
+              "label": "Anti Recoil",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "__auto_module": "antirecoil",
+                "font": "default",
+                "cursorStyle": "prefix",
+                "prefixChar": ">",
+                "label": "Anti Recoil (Basic)",
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "2f6763b2-e5c9-40e8-87db-01b41ecd5402",
+              "type": "menu-item",
+              "label": "Auto Ping",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": true,
+              "config": {
+                "label": "Auto Ping",
+                "prefixSpacing": 1,
+                "prefixChar": ">",
+                "cursorStyle": "prefix",
+                "font": "default",
+                "__auto_module": "autoping"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "59632e6e-6830-413f-8d12-24837caa3893",
+              "type": "menu-item",
+              "label": "Bunny Hop",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 3,
+              "interactive": true,
+              "config": {
+                "cursorStyle": "prefix",
+                "font": "default",
+                "__auto_module": "bunnyhop",
+                "prefixSpacing": 1,
+                "label": "Bunny Hop",
+                "prefixChar": ">"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "18413dd3-b478-475d-aca3-09e7164a75d7",
+              "type": "menu-item",
+              "label": "Crouch Shot",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 4,
+              "interactive": true,
+              "config": {
+                "prefixSpacing": 1,
+                "cursorStyle": "prefix",
+                "__auto_module": "crouchshot",
+                "label": "Crouch Shot",
+                "prefixChar": ">",
+                "font": "default"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "16f80df3-8121-4a30-990e-961724011f51",
+              "type": "menu-item",
+              "label": "Hold Breath",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 5,
+              "interactive": true,
+              "config": {
+                "label": "Hold Breath",
+                "__auto_module": "holdbreath",
+                "font": "default",
+                "cursorStyle": "prefix",
+                "prefixChar": ">",
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "7135fea5-aacb-4b79-b099-73821d18a514",
+              "type": "menu-item",
+              "label": "Lean Spam",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 6,
+              "interactive": true,
+              "config": {
+                "prefixSpacing": 1,
+                "label": "Lean Spam",
+                "__auto_module": "leanspam",
+                "cursorStyle": "prefix",
+                "font": "default",
+                "prefixChar": ">"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "c2dd124b-15f0-4b70-970a-ed8999286353",
+              "type": "menu-item",
+              "label": "Rapid Fire",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 7,
+              "interactive": true,
+              "config": {
+                "label": "Rapid Fire",
+                "prefixSpacing": 1,
+                "__auto_module": "rapid",
+                "prefixChar": ">",
+                "font": "default",
+                "cursorStyle": "prefix"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "2ca3d42b-8ef8-43eb-917a-c7fd317ff62a",
+              "type": "menu-item",
+              "label": "Always Run",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 8,
+              "interactive": true,
+              "config": {
+                "prefixChar": ">",
+                "__auto_module": "alwaysrun",
+                "cursorStyle": "prefix",
+                "font": "default",
+                "label": "Always Run",
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "294332c4-c3e3-41ab-9524-2962a16271e5",
+              "type": "menu-item",
+              "label": "Auto Run",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 9,
+              "interactive": true,
+              "config": {
+                "prefixChar": ">",
+                "__auto_module": "autorun",
+                "cursorStyle": "prefix",
+                "font": "default",
+                "label": "Auto Run",
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "e34caa3e-b3f7-4ab4-80a1-fcbbc0f22d3d",
+              "type": "menu-item",
+              "label": "Auto Run KBM",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 10,
+              "interactive": true,
+              "config": {
+                "__auto_module": "autorunkb",
+                "cursorStyle": "prefix",
+                "font": "default",
+                "prefixChar": ">",
+                "label": "Auto Run KB",
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "267604cf-925d-49e7-9afc-925e786e8749",
+              "type": "menu-item",
+              "label": "Strafe",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 11,
+              "interactive": true,
+              "config": {
+                "label": "Strafe",
+                "prefixChar": ">",
+                "prefixSpacing": 1,
+                "cursorStyle": "prefix",
+                "__auto_module": "strafe",
+                "font": "default"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 13.0,
+          "stackOffsetY": 7.0,
+          "visibleCount": 5,
+          "scrollMode": "window",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "9aee0f2e-b775-44e5-8ae6-6d0363e52bcd",
+          "type": "submenu",
+          "label": "Aim Assist (Polar)",
+          "position": {
+            "x": 650.0,
+            "y": 100.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AimPolarStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AimPolarSize",
+              "type": "int",
+              "defaultValue": 15,
+              "persist": true,
+              "min": 1,
+              "max": 30,
+              "arraySize": null
+            },
+            {
+              "name": "AimPolarSpeed",
+              "type": "int",
+              "defaultValue": 20,
+              "persist": true,
+              "min": 5,
+              "max": 50,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:aimassist_polar",
+          "subNodes": [
+            {
+              "id": "91a6b22b-8e61-4970-b4a5-d73ba37fc583",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "valueAlign": "right",
+                "prefixChar": ">",
+                "offText": "OFF",
+                "prefixSpacing": 1,
+                "label": "Status",
+                "cursorStyle": "prefix",
+                "onText": "ON",
+                "__auto_module": "aimassist_polar",
+                "font": "default"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AimPolarStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "c39b109a-9690-4654-97d1-2feec2d1f1db",
+              "type": "value-item",
+              "label": "Size",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "__auto_module": "aimassist_polar",
+                "label": "Size",
+                "font": "default",
+                "valueAlign": "right",
+                "cursorStyle": "prefix",
+                "max": 30,
+                "min": 1,
+                "prefixChar": ">",
+                "format": "{value}",
+                "prefixSpacing": 1,
+                "step": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AimPolarSize",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "b58415ea-f680-4731-9837-a0ccffc9532c",
+              "type": "value-item",
+              "label": "Speed",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": true,
+              "config": {
+                "label": "Speed",
+                "prefixSpacing": 1,
+                "cursorStyle": "prefix",
+                "font": "default",
+                "step": 1,
+                "format": "{value}",
+                "min": 5,
+                "prefixChar": ">",
+                "__auto_module": "aimassist_polar",
+                "valueAlign": "right",
+                "max": 50
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AimPolarSpeed",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "05d78401-c52c-44c1-98af-4b374fd180e2",
+          "type": "submenu",
+          "label": "Anti Recoil (Basic)",
+          "position": {
+            "x": 650.0,
+            "y": 300.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AntiRecoilStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AR_TempV",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": -100,
+              "max": 100,
+              "arraySize": null
+            },
+            {
+              "name": "AR_TempH",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": -100,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:antirecoil",
+          "subNodes": [
+            {
+              "id": "eee905e1-c8dc-4fd9-a5f7-107ea2fe91e1",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "prefixSpacing": 1,
+                "offText": "OFF",
+                "font": "default",
+                "valueAlign": "right",
+                "prefixChar": ">",
+                "cursorStyle": "prefix",
+                "__auto_module": "antirecoil",
+                "onText": "ON",
+                "label": "Status"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AntiRecoilStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "b4026001-1a14-444e-861f-5a65182b2263",
+              "type": "value-item",
+              "label": "V Mod.",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "prefixChar": ">",
+                "label": "V Mod.",
+                "step": 1,
+                "font": "default",
+                "__auto_module": "antirecoil",
+                "valueAlign": "right",
+                "min": -100,
+                "prefixSpacing": 1,
+                "max": 100,
+                "format": "{value}",
+                "cursorStyle": "prefix"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AR_TempV",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "0f0a11d3-d5a1-4c32-a162-b8c798e41290",
+              "type": "value-item",
+              "label": "H Mod.",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": true,
+              "config": {
+                "valueAlign": "right",
+                "max": 100,
+                "__auto_module": "antirecoil",
+                "font": "default",
+                "format": "{value}",
+                "min": -100,
+                "cursorStyle": "prefix",
+                "prefixChar": ">",
+                "prefixSpacing": 1,
+                "label": "H Mod.",
+                "step": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AR_TempH",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "addc9b7f-9d3b-4ad5-bb42-3f321c453df9",
+          "type": "submenu",
+          "label": "Auto Ping",
+          "position": {
+            "x": 650.0,
+            "y": 500.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoPingStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AutoPingInterval",
+              "type": "int",
+              "defaultValue": 1000,
+              "persist": true,
+              "min": 100,
+              "max": 2000,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:autoping",
+          "subNodes": [
+            {
+              "id": "4f876d19-231c-4c32-b81e-2f4825be8310",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "label": "Status",
+                "prefixSpacing": 1,
+                "cursorStyle": "prefix",
+                "offText": "OFF",
+                "valueAlign": "right",
+                "__auto_module": "autoping",
+                "font": "default",
+                "prefixChar": ">",
+                "onText": "ON"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AutoPingStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "997238f8-6014-4cc2-9353-f5aab9a60d1b",
+              "type": "value-item",
+              "label": "Interval",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "max": 2000,
+                "prefixChar": ">",
+                "prefixSpacing": 1,
+                "valueAlign": "right",
+                "font": "default",
+                "label": "Interval",
+                "__auto_module": "autoping",
+                "cursorStyle": "prefix",
+                "min": 100,
+                "step": 1,
+                "format": "{value}"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AutoPingInterval",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "6e0f57a9-2636-40cb-b6db-0a52600eeabe",
+          "type": "submenu",
+          "label": "Bunny Hop",
+          "position": {
+            "x": 650.0,
+            "y": 700.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "BunnyHopStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "BunnyHopInterval",
+              "type": "int",
+              "defaultValue": 50,
+              "persist": true,
+              "min": 20,
+              "max": 200,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:bunnyhop",
+          "subNodes": [
+            {
+              "id": "0b156e16-6501-4c46-b6b7-d97442f39940",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "prefixChar": ">",
+                "font": "default",
+                "__auto_module": "bunnyhop",
+                "cursorStyle": "prefix",
+                "onText": "ON",
+                "label": "Status",
+                "prefixSpacing": 1,
+                "valueAlign": "right",
+                "offText": "OFF"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "BunnyHopStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "5f232ba4-c7c6-4333-9c48-01fa7624d596",
+              "type": "value-item",
+              "label": "Interval",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "max": 200,
+                "__auto_module": "bunnyhop",
+                "prefixChar": ">",
+                "label": "Interval",
+                "prefixSpacing": 1,
+                "min": 20,
+                "step": 1,
+                "font": "default",
+                "cursorStyle": "prefix",
+                "valueAlign": "right",
+                "format": "{value}"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "BunnyHopInterval",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "3e704830-652d-4fe7-892e-cbe86499e971",
+          "type": "submenu",
+          "label": "Crouch Shot",
+          "position": {
+            "x": 650.0,
+            "y": 900.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "CrouchShotStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:crouchshot",
+          "subNodes": [
+            {
+              "id": "080bbadf-e6cc-4ddb-98ae-754ddbf801ac",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "font": "default",
+                "prefixChar": ">",
+                "cursorStyle": "prefix",
+                "offText": "OFF",
+                "prefixSpacing": 1,
+                "valueAlign": "right",
+                "label": "Status",
+                "__auto_module": "crouchshot",
+                "onText": "ON"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "CrouchShotStatus",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "db61dac3-7c10-440f-aab7-4ed79d6f0551",
+          "type": "submenu",
+          "label": "Hold Breath",
+          "position": {
+            "x": 650.0,
+            "y": 1100.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "HoldBreathStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "HoldBreathDuration",
+              "type": "int",
+              "defaultValue": 10000,
+              "persist": true,
+              "min": 1000,
+              "max": 30000,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:holdbreath",
+          "subNodes": [
+            {
+              "id": "37341373-caf5-4a30-a7ee-9cb92b610ea7",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "__auto_module": "holdbreath",
+                "prefixSpacing": 1,
+                "cursorStyle": "prefix",
+                "valueAlign": "right",
+                "onText": "ON",
+                "font": "default",
+                "label": "Status",
+                "offText": "OFF",
+                "prefixChar": ">"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "HoldBreathStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "f0846cfd-d4a8-4f58-874e-e0521a122162",
+              "type": "value-item",
+              "label": "Duration",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "format": "{value}",
+                "prefixSpacing": 1,
+                "font": "default",
+                "__auto_module": "holdbreath",
+                "label": "Duration",
+                "max": 30000,
+                "cursorStyle": "prefix",
+                "step": 1,
+                "min": 1000,
+                "prefixChar": ">",
+                "valueAlign": "right"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "HoldBreathDuration",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "71f994e8-f66d-46f3-ac65-59b9a4984a03",
+          "type": "submenu",
+          "label": "Lean Spam",
+          "position": {
+            "x": 650.0,
+            "y": 1298.831626985763
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "LeanSpamStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "LeanSpamSpeed",
+              "type": "int",
+              "defaultValue": 100,
+              "persist": true,
+              "min": 20,
+              "max": 500,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:leanspam",
+          "subNodes": [
+            {
+              "id": "fc94f949-3a95-4fba-8c76-88fc8328a247",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "__auto_module": "leanspam",
+                "cursorStyle": "prefix",
+                "onText": "ON",
+                "label": "Status",
+                "offText": "OFF",
+                "prefixChar": ">",
+                "prefixSpacing": 1,
+                "valueAlign": "right",
+                "font": "default"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "LeanSpamStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "6c082dcf-d870-4933-8bac-cc8e38ce5141",
+              "type": "value-item",
+              "label": "Speed",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "min": 20,
+                "step": 1,
+                "label": "Speed",
+                "cursorStyle": "prefix",
+                "__auto_module": "leanspam",
+                "font": "default",
+                "format": "{value}",
+                "prefixChar": ">",
+                "valueAlign": "right",
+                "prefixSpacing": 1,
+                "max": 500
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "LeanSpamSpeed",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "079b4bd6-c7c7-442f-8cee-16d7b07ce57f",
+          "type": "submenu",
+          "label": "Rapid Fire",
+          "position": {
+            "x": 650.0,
+            "y": 1500.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "RapidFireStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "RapidFireSpeed",
+              "type": "int",
+              "defaultValue": 5,
+              "persist": true,
+              "min": 1,
+              "max": 10,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:rapid",
+          "subNodes": [
+            {
+              "id": "114756d1-0418-4cc8-bc61-1c3a2aea63a2",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "prefixSpacing": 1,
+                "prefixChar": ">",
+                "valueAlign": "right",
+                "__auto_module": "rapid",
+                "cursorStyle": "prefix",
+                "onText": "ON",
+                "label": "Status",
+                "offText": "OFF",
+                "font": "default"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "RapidFireStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "36aa35ba-17a6-4658-aa3e-5f64dc47e9cc",
+              "type": "value-item",
+              "label": "Speed",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "valueAlign": "right",
+                "font": "default",
+                "max": 10,
+                "__auto_module": "rapid",
+                "step": 1,
+                "format": "{value}",
+                "min": 1,
+                "label": "Speed",
+                "cursorStyle": "prefix",
+                "prefixChar": ">",
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "RapidFireSpeed",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "573e682d-06e5-459e-a534-73739757866c",
+          "type": "submenu",
+          "label": "Always Run",
+          "position": {
+            "x": 650.0,
+            "y": 1700.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AlwaysRunStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AlwaysRunThreshold",
+              "type": "int",
+              "defaultValue": 95,
+              "persist": true,
+              "min": 50,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:alwaysrun",
+          "subNodes": [
+            {
+              "id": "67235428-eb09-4306-a34f-d8bbb8c027f1",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "cursorStyle": "prefix",
+                "prefixChar": ">",
+                "__auto_module": "alwaysrun",
+                "font": "default",
+                "onText": "ON",
+                "label": "Status",
+                "offText": "OFF",
+                "valueAlign": "right",
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AlwaysRunStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "903face7-7435-46bb-ab8b-960ad390779e",
+              "type": "value-item",
+              "label": "Threshold",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "font": "default",
+                "label": "Threshold",
+                "max": 100,
+                "format": "{value}",
+                "prefixSpacing": 1,
+                "step": 1,
+                "valueAlign": "right",
+                "prefixChar": ">",
+                "min": 50,
+                "cursorStyle": "prefix",
+                "__auto_module": "alwaysrun"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AlwaysRunThreshold",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "af136662-5ecd-4598-ae21-16df21c88b3c",
+          "type": "submenu",
+          "label": "Auto Run",
+          "position": {
+            "x": 650.0,
+            "y": 1900.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoRunStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AutoRunThreshold",
+              "type": "int",
+              "defaultValue": 80,
+              "persist": true,
+              "min": 50,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:autorun",
+          "subNodes": [
+            {
+              "id": "3b635b91-4e8a-4fb1-bc24-b782cc913ba4",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "font": "default",
+                "prefixSpacing": 1,
+                "valueAlign": "right",
+                "prefixChar": ">",
+                "label": "Status",
+                "cursorStyle": "prefix",
+                "__auto_module": "autorun",
+                "offText": "OFF",
+                "onText": "ON"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AutoRunStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "8b1b5b7f-c36a-484f-a06c-f3011e319467",
+              "type": "value-item",
+              "label": "Threshold",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "valueAlign": "right",
+                "label": "Threshold",
+                "prefixChar": ">",
+                "step": 1,
+                "format": "{value}",
+                "__auto_module": "autorun",
+                "max": 100,
+                "cursorStyle": "prefix",
+                "font": "default",
+                "min": 50,
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AutoRunThreshold",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "b9016b34-87f2-46f3-b96d-3b3b3b539bab",
+          "type": "submenu",
+          "label": "Auto Run KB",
+          "position": {
+            "x": 650.0,
+            "y": 2100.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoRunKBStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:autorunkb",
+          "subNodes": [
+            {
+              "id": "b4e07494-1534-43ce-a060-c83d8e7071ac",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "label": "Status",
+                "cursorStyle": "prefix",
+                "prefixSpacing": 1,
+                "valueAlign": "right",
+                "font": "default",
+                "__auto_module": "autorunkb",
+                "onText": "ON",
+                "prefixChar": ">",
+                "offText": "OFF"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AutoRunKBStatus",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "b783c139-e8d9-4e03-8487-8b66cd1c7790",
+          "type": "home",
+          "label": "Home",
+          "position": {
+            "x": -310.58610875946556,
+            "y": 13.094774219689045
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": true,
+          "variables": [],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "1f50ae0d-4ddb-4ec6-9d34-dbdd9b914223",
+          "subNodes": [
+            {
+              "id": "4aba7379-2ed5-484b-8772-d5b912226b30",
+              "type": "pixel-art",
+              "label": "Outline",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "07fde0df-8da4-4009-9eb4-9eb1334566e8",
+                  "name": "Outline",
+                  "pixels": "/////////////////////4AAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAB/////////////////////w=="
+                },
+                "width": 128,
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "7fde1bfd-9698-400b-a993-a40e97978814",
+              "type": "pixel-art",
+              "label": "Splash Screen",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "45c6c7c7-1660-4cde-8e98-6b4712f6621d",
+                  "name": "Splash Screen",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf////////////D//////AEAAAAAAAAAAAAA//zfnMQBAAAAAAAAAAAAEP/+b8wEATGHB8PjGHj8PhCb/3/GRAE7jYxmMxgwZmMQ9vuX72QBP5jGAwMYMGZjEPyey+MsATWYw4HD+DB8YxD/EIf13AExn8DAYxgwbGMQ7+Px+5wBMZjMZjMYMGZjELz8YfpUATGYx8PjGHjmPhDDze59zAEAAAAAAAAAAAAQ9zx5jwQBAAAAAAAAAAAAEPz8EAAEASupK4AAAAAAABD/P///5AE5OrkAAAAAAAAQ/8f//tQBOTu5AAAAAAAAEOf898A0ASkqqQAAAAAAABD8f4AIdAErqquAAAAAAAAQ//gAEPwBAAAAAAAAAAAAEP//AAH0AQAAAAAAAAAAABDAAKgD/AH////////////w/BcAB/wAAAAAAAAAAAAAAPD4gAv8AAAAAAAAAAAAAADD8AAL/AAAAAAAAAAAAAAAz8gUh+wAAAAAAAAAAAAAAL+BtIX8AAAAAAAAAAAAAAD/Aw3V/AAAAAAAAAAAAAAA/wHpsvQAAAAAAAAAAAAAAP6J7Ur0AAAAAAAAAAAAAAD+HPsbfAAAAAAAAAAAAAAA/j8OG3wAAAAAAAAAAAAAAP8//Ds8AAAAAAAAAAAAAAD/PgI9HAAAAAAAAAAAAAAA//lt/ZwAAAAAAAAAAAAAAP/+5/28AAAAAAAAAAAAAAD//vcdjAAAAAAAAAAAAAAA///+HQwAAAAAAAAAAAAAAJ///j1EAAAAAAAAAAAAAACnz/89TAAAAAAAAAAAAAAAgf///cwAAAAAAAAAAAAAAOB///7MAAAAAAAAAAAAAAD////+zAAAAAAAAAAAAAAA////+9wAAAAAAAAAAAAAAP////mMAAAAAAAAAAAAAAD////zjAAAAAAAAAAAAAAA////4wwAMBAAI4ABARAAAP///+cMACmpmCCBArOBMYD////OLAAyOzAjg4KpEqsA////niwAIiCIIgECsRKogP///3zsACIbMDuAASCRKwD////8bAAAAAAAAAAAAAAA////+GwAAAAAP///////gP////gMAAAAAAAAAAAAAAD////wBAAQAAEAEhABAAAA9///4AQAOQEysDsoKrKAAMf+H+AMABKCq6gSuDuqgAC/8H/CzAASgrIoEqAqKoAA//////wACQEhqAqYKamQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "3f1e4ef9-ca41-446a-9876-86aa3b5a76ba",
+              "type": "pixel-art",
+              "label": "Game Name",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": false,
+              "config": {
+                "width": 128,
+                "scene": {
+                  "id": "7dd54eea-0236-41f4-974b-03e2534e1332",
+                  "name": "Game Name",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH////////////wAAAAAAABAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAABAAAAAAAAEDgAAABAAH3jgQAAAAAAABBEAAAAAABBFEEAAAAAAAAQQOWOWMOAQRQBAAAAAAAAEF0WUWREAHnjgQAAAAAAABBF9F9ARABBAEEAAAAAAAAQRQRQQERAQQRBAAAAAAAAEDzkTkDjgEEDgQAAAAAAABAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAABAAAAAAAAH////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64,
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": null,
+          "moduleData": null
+        },
+        {
+          "id": "ec8a85f0-1e59-4143-a83d-ce009e48748d",
+          "type": "custom",
+          "label": "States",
+          "position": {
+            "x": -189.44927905922776,
+            "y": 198.91756017911075
+          },
+          "gpcCode": "// Main render/logic — runs each cycle while in this state",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "0f84204f-640e-40ab-9fcc-677df1c53195",
+          "subNodes": [
+            {
+              "id": "a21e2229-fff2-483f-aefa-80e12dcbb3b8",
+              "type": "pixel-art",
+              "label": "Outline",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "scene": {
+                  "id": "948bcc75-4746-41dd-81ef-6b800084491f",
+                  "name": "Outline",
+                  "pixels": "/////////////////////4AAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAB/////////////////////w=="
+                },
+                "width": 128,
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "3c072ed4-6727-4174-8e9c-e05a66663e19",
+              "type": "custom",
+              "label": "---- General ----",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": false,
+              "config": {
+                "height": 8,
+                "interactive": false,
+                "label": "Custom",
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "89246048-6f22-4383-ada8-d3d81b1b738c",
+              "type": "pixel-art",
+              "label": "Header",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": false,
+              "config": {
+                "width": 128,
+                "height": 64,
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "72645053-2a80-4d0c-8160-9ee7a21a73ef",
+                  "name": "Header",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////8IAAAAAAgAAAAAAAAAAAABCAAAAAAIAAAAAAAAAAAAAQjnzn3ziAAAAAAAAAAAAAEJERERBEgAAAAAAAAAAAABCQEREQQIAAAAAAAAAAAAAQjhHxHjiAAAAAAAAAAAAAEIERERAEgAAAAAAAAAAAABCREREQRIAAAAAAAAAAAAAQjhERHziAAAAAAAAAAAAAEIAAAAAAgAAAAAAAAAAAABCAAAAAAIAAAAAAAAAAAAAQ////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "1a9d89a1-e047-440b-8ac9-711b9237fc6a",
+              "type": "pixel-art",
+              "label": "Checkboxes",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 3,
+              "interactive": false,
+              "config": {
+                "scene": {
+                  "id": "df7f3380-8bb5-4709-801b-9408eb8f4a97",
+                  "name": "Checkboxes",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAHwAAAAAAAAAEQAAAAAAAABEAAAAAAAAABEAAAAAAAAARAAAAAAAAAARAAAAAAAAAEQAAAAAAAAAHwAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAB8AAAAAAAAABEAAAAAAAAARAAAAAAAAAARAAAAAAAAAEQAAAAAAAAAEQAAAAAAAABEAAAAAAAAAB8AAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAfAAAAAAAAAARAAAAAAAAAEQAAAAAAAAAEQAAAAAAAABEAAAAAAAAABEAAAAAAAAARAAAAAAAAAAfAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAHwAAAAAAAAAEQAAAAAAAABEAAAAAAAAABEAAAAAAAAARAAAAAAAAAARAAAAAAAAAEQAAAAAAAAAHwAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAB8AAAAAAAAABEAAAAAAAAARAAAAAAAAAARAAAAAAAAAEQAAAAAAAAAEQAAAAAAAABEAAAAAAAAAB8AAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAfAAAAAAAAAARAAAAAAAAAEQAAAAAAAAAEQAAAAAAAABEAAAAAAAAABEAAAAAAAAARAAAAAAAAAAfAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128,
+                "label": "Pixel Art",
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "482cab71-d1c7-4336-bbc2-8557978b27a5",
+              "type": "pixel-art",
+              "label": "Title",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 4,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "label": "Pixel Art",
+                "width": 128,
+                "scene": {
+                  "id": "bacdef50-8173-4b1e-bb92-5e926f61a479",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAkAESAwAQC4AAAAAAAAADmagoOwESqBCAAAAAAAAAA6q4KRKBKrghgAAAAAAAAAKqoDkSgSqgEIAAAAAAAAACmZgpCoORGAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "0feac98d-8879-4413-991d-d648f01aeb8d",
+              "type": "custom",
+              "label": "---- Labels ----",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 5,
+              "interactive": false,
+              "config": {
+                "interactive": false,
+                "width": 128,
+                "height": 8,
+                "label": "Custom"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "337a130f-d6de-4021-84a1-91683fffbe31",
+              "type": "pixel-art",
+              "label": "Recoil",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 6,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "width": 128,
+                "scene": {
+                  "id": "a1eb3b3a-936d-4caf-a431-d39495b48ef5",
+                  "name": "Recoil",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGIAJgAAAAAAAAAAAAAAAABVMgIAAAAAAAAAAAAAAAAAZ0UiAAAAAAAAAAAAAAAAAFRFIgAAAAAAAAAAAAAAAABTMicAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "147900e0-7656-433e-a003-a35966b78d97",
+              "type": "pixel-art",
+              "label": "Rapid Fire",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 7,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "09be0d00-322d-4c2f-8750-68d39c9fa4ef",
+                  "name": "Rapid Fire",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAhByAgAAAAAAAAAAAAAAU2AwQDUAAAAAAAAAAAAAAGVSUGJHAAAAAAAAAAAAAABVYlBCRAAAAAAAAAAAAAAAU0IwQkMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "22aebb25-da3c-42f9-a323-d94341bfd5ad",
+              "type": "pixel-art",
+              "label": "Aim Assist",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 8,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "c5b901c3-70ba-4cec-b8dc-7fbc94fe86d1",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAgAgIAAAAAAAAAAAAAAFBQUzA3AAAAAAAAAAAAAABycHZiYgAAAAAAAAAAAAAAUlBREhIAAAAAAAAAAAAAAFJQVmJhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128,
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "45d222ed-31b1-4c90-afea-021a03779d51",
+              "type": "pixel-art",
+              "label": "Auto Ping",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 9,
+              "interactive": false,
+              "config": {
+                "scene": {
+                  "id": "bca6368d-9d3c-4937-8f24-0800b6884639",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgBiAwAAAAAAAAAAAAAABVcgUGUAAAAAAAAAAAAAAAdSUGJTAAAAAAAAAAAAAAAFUlBCUQAAAAAAAAAAAAAABTEgQlYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128,
+                "label": "Pixel Art",
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "a279bd56-765b-4b58-b0ef-150738028433",
+              "type": "pixel-art",
+              "label": "Bunny Hop",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 10,
+              "interactive": false,
+              "config": {
+                "scene": {
+                  "id": "975188e5-50f3-4768-a5c2-2faef0e2ebe6",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAABQAAAAAAAAAAAAAAAAVWZQUmAAAAAAAAAAAAAAAGVVMHVQAAAAAAAAAAAAAABVVRBVYAAAAAAAAAAAAAAAY1VgUkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "label": "Pixel Art",
+                "width": 128,
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "8865700c-f881-4ad3-af88-2f1db7908cad",
+              "type": "pixel-art",
+              "label": "Crouch Shot",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 11,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "4b4becf6-dd51-4d8d-a6da-b80ef34a9972",
+                  "name": "Crouch Shot",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAEA0AgAAAAAAAAAAAAAEMlNgRicAAAAAAAAAAAAABEVUUCVSAAAAAAAAAAAAAARFVFAVUgAAAAAAAAAAAAADQjNQZSEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128,
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "91819434-ff4e-4101-9dcd-34b9fdc55262",
+              "type": "pixel-art",
+              "label": "Hold Breath",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 12,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "width": 128,
+                "scene": {
+                  "id": "54b7a891-8f47-432a-87e9-e04a955c7bc9",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoMIMBASAAAAAAAAAAAAAAKRGCmpuwAAAAAAAAAAAAADqSgyOpKAAAAAAAAAAAAAAqkoKiKSgAAAAAAAAAAAAAKTmDIZioAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "39e97425-f575-4329-8ef6-f5a9570c6695",
+              "type": "pixel-art",
+              "label": "Lean Spam",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 13,
+              "interactive": false,
+              "config": {
+                "width": 128,
+                "scene": {
+                  "id": "9b3a7027-05dc-422d-af81-3510f3841a74",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQABgAAAAAAAAAAAAAAAACKbAjGoAAAAAAAAAAAAAAAjqoEquAAAAAAAAAAAAAAAIiqAsqgAAAAAAAAAAAAAADmagyGoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64,
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "df15d7a3-4c40-4af5-896b-0be05cd6a4c3",
+              "type": "pixel-art",
+              "label": "Always Run",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 14,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "width": 128,
+                "height": 64,
+                "scene": {
+                  "id": "475998a5-addc-4acc-900a-fd80881741a7",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMAAAMAAAAAAAAAAAAAAAApKamCqwAAAAAAAAAAAAAAOSqbAyqAAAAAAAAAAAAAACk6iIKqgAAAAAAAAAAAAAArqbMCmoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "d1e9fc04-9030-412e-84ef-b529d2313af5",
+              "type": "pixel-art",
+              "label": "Auto Run",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 15,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "height": 64,
+                "width": 128,
+                "scene": {
+                  "id": "28f1b7e8-173c-48ea-95a5-46230f3c0cbd",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAMAAAAAAAAAAAAAAAAAKrkCqwAAAAAAAAAAAAAAADqSgyqAAAAAAAAAAAAAAAAqkoKqgAAAAAAAAAAAAAAAKYkCmoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "f0ade912-597a-4bd8-9a4c-1b3c65a32bb4",
+              "type": "pixel-art",
+              "label": "Auto Run KBM",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 16,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "3fed9967-896d-4849-89f6-82607d6b025f",
+                  "name": "Auto Run KBM",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACFZWAAAAAAAAAAAAAAAAAAhVcQAAAAAAAAAAAAAAAAAOZnIAAAAAAAAAAAAAAAAAAFVQAAAAAAAAAAAAAAAAAABWUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64,
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "b632e9d0-04c4-47ae-9dcb-b0492a7be77e",
+              "type": "pixel-art",
+              "label": "Strafe",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 17,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "f69720fa-082e-4cc9-9b03-ebb5cc0fc39a",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABkACQAAAAAAAAAAAAAAAAAjmZKAAAAAAAAAAAAAAAAAESK7gAAAAAAAAAAAAAAAAAkikgAAAAAAAAAAAAAAAAAwoZGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64,
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "02984063-1df2-4439-96e8-2a55b432123d",
+              "type": "custom",
+              "label": "---- Status ----",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 18,
+              "interactive": false,
+              "config": {
+                "label": "Custom",
+                "width": 128,
+                "interactive": false,
+                "height": 8
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "d874e4e9-eae5-442a-a717-b806a4b445c7",
+              "type": "pixel-art",
+              "label": "Recoil Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 19,
+              "interactive": false,
+              "config": {
+                "width": 128,
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "cf7748d9-645e-4fbe-a176-86739b9555b3",
+                  "name": "Recoil Status",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "AntiRecoilStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "030c1dbc-97e7-43cd-b542-6fb0430ef3db",
+              "type": "pixel-art",
+              "label": "Rapid Fire Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 20,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "scene": {
+                  "id": "093e271d-2a4c-4f1f-b73e-a205b937220c",
+                  "name": "Rapid Fire Status",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "label": "Pixel Art",
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "RapidFireStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "64012cf7-ec26-4ade-aee0-6ad32b7fc6de",
+              "type": "pixel-art",
+              "label": "Aim Assist Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 21,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "width": 128,
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "9f89bf06-5565-4320-a874-99eb343f2a94",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "AimPolarStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "408f2594-6add-4c02-a63d-fedf8a01690f",
+              "type": "pixel-art",
+              "label": "Auto Ping Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 22,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "height": 64,
+                "width": 128,
+                "scene": {
+                  "id": "8cba2c42-92c9-45e9-ad5a-2ccbffa7b5b2",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "AutoPingStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "ed582480-1202-4863-9e92-8677eaeccb62",
+              "type": "pixel-art",
+              "label": "Bunny Hop Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 23,
+              "interactive": false,
+              "config": {
+                "label": "Pixel Art",
+                "width": 128,
+                "scene": {
+                  "id": "21b73cf3-acfe-47fa-a233-13b86aef8526",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "BunnyHopStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "7e6faca8-2cf0-4ce9-99a9-f0c3c8a9d06e",
+              "type": "pixel-art",
+              "label": "Crouch Shot Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 24,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "scene": {
+                  "id": "332875ca-eb14-4631-8e6c-c40a17b8e7ce",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "label": "Pixel Art",
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "CrouchShotStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "4eeb1ea1-2e3b-4dd6-8a8c-cc53ca81f51b",
+              "type": "pixel-art",
+              "label": "Hold Breath Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 25,
+              "interactive": false,
+              "config": {
+                "scene": {
+                  "id": "dbf7890c-c25f-406a-b792-c2088d352398",
+                  "name": "Hold Breath Status",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64,
+                "width": 128,
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "HoldBreathStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "5ec64f0b-6234-4d55-87c6-66e0fd180995",
+              "type": "pixel-art",
+              "label": "Lean Spam Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 26,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "scene": {
+                  "id": "fb4202e8-a299-41b8-ac84-b67060cd05aa",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128,
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "LeanSpamStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "3ea6ce38-ac51-4e1f-b3f9-f4cb14804756",
+              "type": "pixel-art",
+              "label": "Always Run Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 27,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "width": 128,
+                "scene": {
+                  "id": "f5c42da3-2daa-4d52-80b3-cd990e78c071",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "AlwaysRunStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "21b1be21-6851-42e9-9b69-befaec7b48c1",
+              "type": "pixel-art",
+              "label": "Auto Run Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 28,
+              "interactive": false,
+              "config": {
+                "scene": {
+                  "id": "0ad5cb05-7c56-43db-b615-d063feadcf1f",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64,
+                "label": "Pixel Art",
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "AutoRunStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "1bea76d0-c5f5-4f72-819f-f2b385d2ca07",
+              "type": "pixel-art",
+              "label": "Auto Run KBM Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 29,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "scene": {
+                  "id": "4b710cd2-afae-47c9-956c-4a5080a7be03",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "label": "Pixel Art",
+                "width": 128
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "AutoRunKBStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "48ad1f12-88e1-4405-85c4-d1a46440e990",
+              "type": "pixel-art",
+              "label": "Strafe Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 30,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "label": "Pixel Art",
+                "width": 128,
+                "scene": {
+                  "id": "e2ab8b26-ab81-4e69-b4dc-9fbd4d14dc2b",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAAfAAAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "StrafeStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": null
+        },
+        {
+          "id": "451d49e1-c2bd-4a73-997f-818f5de8ef43",
+          "type": "submenu",
+          "label": "Strafe",
+          "position": {
+            "x": 647.4598848732801,
+            "y": 2298.8433107159053
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "StrafeStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "StrafeStrength",
+              "type": "int",
+              "defaultValue": 50,
+              "persist": true,
+              "min": 1,
+              "max": 100,
+              "arraySize": null
+            },
+            {
+              "name": "StrafeSpeed",
+              "type": "int",
+              "defaultValue": 100,
+              "persist": true,
+              "min": 50,
+              "max": 300,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:strafe",
+          "subNodes": [
+            {
+              "id": "9f2aca19-360c-46f7-a0ff-c48f4ee6604a",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "onText": "ON",
+                "label": "Status",
+                "font": "default",
+                "prefixSpacing": 1,
+                "cursorStyle": "prefix",
+                "valueAlign": "right",
+                "offText": "OFF",
+                "prefixChar": ">",
+                "__auto_module": "strafe"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "StrafeStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "6d7ea09e-a376-4ce6-8cfa-4817018c8aeb",
+              "type": "value-item",
+              "label": "Strength",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "font": "default",
+                "label": "Strength",
+                "prefixSpacing": 1,
+                "step": 1,
+                "format": "{value}",
+                "prefixChar": ">",
+                "min": 1,
+                "valueAlign": "right",
+                "cursorStyle": "prefix",
+                "max": 100,
+                "__auto_module": "strafe"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "StrafeStrength",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "e6ed9b9a-2ebd-475d-9ba6-c9fb1e1007cf",
+              "type": "value-item",
+              "label": "Speed",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": true,
+              "config": {
+                "prefixChar": ">",
+                "step": 1,
+                "valueAlign": "right",
+                "prefixSpacing": 1,
+                "format": "{value}",
+                "min": 50,
+                "cursorStyle": "prefix",
+                "max": 300,
+                "__auto_module": "strafe",
+                "font": "default",
+                "label": "Speed"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "StrafeSpeed",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": null,
+          "moduleData": null
+        }
+      ],
+      "edges": [
+        {
+          "id": "b58dfd75-453f-4dd8-a210-5301ed03d7b9",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "9aee0f2e-b775-44e5-8ae6-6d0363e52bcd",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "c98ce0a0-a523-4cfb-8835-90a2a5bf28d3",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "03f9cb75-bb1e-4be7-95b7-21d236f8530a",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "05d78401-c52c-44c1-98af-4b374fd180e2",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "85edb829-ad08-4230-ae82-60b083b77e10",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "61ce7e2c-9e6d-48fa-88e6-cd93dfd4dcfb",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "addc9b7f-9d3b-4ad5-bb42-3f321c453df9",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "2f6763b2-e5c9-40e8-87db-01b41ecd5402",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "01cfe07c-afb6-40bd-ad45-0fc6715c5ec9",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "6e0f57a9-2636-40cb-b6db-0a52600eeabe",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "59632e6e-6830-413f-8d12-24837caa3893",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "a5d79f30-dcb1-4afd-b908-117d6b8181dc",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "3e704830-652d-4fe7-892e-cbe86499e971",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "18413dd3-b478-475d-aca3-09e7164a75d7",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "0e0f0f24-b660-4b7e-b092-6e217db5e82b",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "db61dac3-7c10-440f-aab7-4ed79d6f0551",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "16f80df3-8121-4a30-990e-961724011f51",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "4ace404d-7618-4a49-91de-98ef2746a6bc",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "71f994e8-f66d-46f3-ac65-59b9a4984a03",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "7135fea5-aacb-4b79-b099-73821d18a514",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "66d72f8f-7e9a-4537-8467-10b19c908493",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "079b4bd6-c7c7-442f-8cee-16d7b07ce57f",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "c2dd124b-15f0-4b70-970a-ed8999286353",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "339ad57b-0f10-4bc3-836b-4de4f75b21d9",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "573e682d-06e5-459e-a534-73739757866c",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "2ca3d42b-8ef8-43eb-917a-c7fd317ff62a",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "05ffdfc4-6600-40ff-990e-51bbb1d47ffe",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "af136662-5ecd-4598-ae21-16df21c88b3c",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "294332c4-c3e3-41ab-9524-2962a16271e5",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "75d59540-3e9d-4c8a-8557-bdd497c2954a",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "b9016b34-87f2-46f3-b96d-3b3b3b539bab",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "e34caa3e-b3f7-4ab4-80a1-fcbbc0f22d3d",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "94a35bcd-03ee-402f-8b6f-07f6eee79347",
+          "sourceNodeId": "b783c139-e8d9-4e03-8487-8b66cd1c7790",
+          "targetNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "L2+Options",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_OPTIONS",
+            "modifiers": [
+              "PS5_L2"
+            ],
+            "timeoutMs": 3000,
+            "variable": null,
+            "comparison": "==",
+            "value": 0,
+            "customCode": null
+          },
+          "sourceSubNodeId": null,
+          "targetSubNodeId": null
+        },
+        {
+          "id": "67a1b6ef-c361-475a-ad77-d5cae79e5ddd",
+          "sourceNodeId": "b783c139-e8d9-4e03-8487-8b66cd1c7790",
+          "targetNodeId": "ec8a85f0-1e59-4143-a83d-ce009e48748d",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "",
+          "condition": {
+            "type": "timeout",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": 3000,
+            "variable": null,
+            "comparison": "==",
+            "value": 0,
+            "customCode": null
+          },
+          "sourceSubNodeId": null,
+          "targetSubNodeId": null
+        },
+        {
+          "id": "48ed4550-f5cd-4b89-a832-5b2033a6f832",
+          "sourceNodeId": "8a139abc-7175-4db0-aa41-c482fb6c4659",
+          "targetNodeId": "451d49e1-c2bd-4a73-997f-818f5de8ef43",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "267604cf-925d-49e7-9afc-925e786e8749",
+          "targetSubNodeId": null
+        }
+      ],
+      "globalVariables": [],
+      "globalCode": "",
+      "settings": {
+        "screenTimeoutMs": 5000,
+        "defaultFont": "OLED_FONT_SMALL",
+        "includeCommonUtils": true,
+        "persistenceEnabled": true,
+        "buttonMapping": {
+          "confirm": "PS5_CROSS",
+          "cancel": "PS5_CIRCLE",
+          "up": "PS5_UP",
+          "down": "PS5_DOWN",
+          "left": "PS5_LEFT",
+          "right": "PS5_RIGHT"
+        }
+      },
+      "createdAt": 1773251513568,
+      "updatedAt": 1773253517798
+    },
+    {
+      "id": "9cce5f7a-c668-4f79-8b52-34d0163d4cb5",
+      "name": "Gameplay Flow",
+      "version": 2,
+      "flowType": "gameplay",
+      "nodes": [
+        {
+          "id": "14ea93fe-6245-4a67-89dd-d14d274c7b76",
+          "type": "module",
+          "label": "Aim Assist (Polar)",
+          "position": {
+            "x": 300.0,
+            "y": 200.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": true,
+          "variables": [
+            {
+              "name": "AimPolarStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AimPolarSize",
+              "type": "int",
+              "defaultValue": 15,
+              "persist": true,
+              "min": 1,
+              "max": 30,
+              "arraySize": null
+            },
+            {
+              "name": "AimPolarSpeed",
+              "type": "int",
+              "defaultValue": 20,
+              "persist": true,
+              "min": 5,
+              "max": 50,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "aimassist_polar",
+            "moduleName": "Aim Assist (Polar)",
+            "triggerCondition": "",
+            "enableVariable": "AimPolarStatus",
+            "initCode": "",
+            "mainCode": "if (AimPolarStatus && get_val(PS5_L2)) {\n    combo_run(AimPolar);\n}",
+            "functionsCode": "define AIMPOL_X_AXIS = 0;\ndefine AIMPOL_Y_AXIS = 1;\nfunction AimPol_ToCart(angle_, radius_, axis_) {\n    set_polar2(POLAR_GHOST, angle_, radius_ * 100);\n    if (axis_ == AIMPOL_X_AXIS) {\n        return get_val(ANALOG_GHOSTX);\n    }\n    return get_val(ANALOG_GHOSTY);\n}",
+            "comboCode": "combo AimPolar {\n    AimPol_PolarX = get_val(PS5_RX) + AimPol_ToCart(AimPol_Angle, AimPolarSize, AIMPOL_X_AXIS);\n    AimPol_PolarY = get_val(PS5_RY) + AimPol_ToCart(AimPol_Angle, AimPolarSize, AIMPOL_Y_AXIS);\n    AimPol_Angle = (AimPol_Angle + AimPolarSpeed) % 360;\n    set_val(PS5_RX, clamp(AimPol_PolarX, -100, 100));\n    set_val(PS5_RY, clamp(AimPol_PolarY, -100, 100));\n    wait(10);\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AimPolarStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Size",
+                "variable": "AimPolarSize",
+                "type": "value",
+                "defaultValue": 15,
+                "min": 1,
+                "max": 30,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Speed",
+                "variable": "AimPolarSpeed",
+                "type": "value",
+                "defaultValue": 20,
+                "min": 5,
+                "max": 50,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "AimPol_PolarX": "int",
+              "AimPol_PolarY": "int",
+              "AimPol_Angle": "int"
+            },
+            "params": null,
+            "conflicts": [
+              "aimassist_square",
+              "aimassist_jitter",
+              "aimassist_circular",
+              "aimassist_leftstick"
+            ],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "5a3cda3f-c281-41fc-98dc-1d45aaa7d517",
+          "type": "module",
+          "label": "Anti Recoil (Basic)",
+          "position": {
+            "x": 564.0,
+            "y": 193.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AntiRecoilStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AR_TempV",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": -100,
+              "max": 100,
+              "arraySize": null
+            },
+            {
+              "name": "AR_TempH",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": -100,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "antirecoil",
+            "moduleName": "Anti Recoil (Basic)",
+            "triggerCondition": "",
+            "enableVariable": "AntiRecoilStatus",
+            "initCode": "",
+            "mainCode": "if (AntiRecoilStatus && get_val(PS5_L2) && get_val(PS5_R2)) {\n    AntiRecoil_Timer++;\n    if (AntiRecoil_Timer >= ANTIRECOIL_INIT_DELAY) {\n        combo_run(AntiRecoil);\n    }\n} else {\n    AntiRecoil_Timer = 0;\n}",
+            "functionsCode": "define ANTIRECOIL_INIT_DELAY = 15;  // Skip first ~150ms of firing (minimal recoil)",
+            "comboCode": "combo AntiRecoil {\n    active_weapon = GetActiveWeapon();\n\n    // Per-weapon recoil values\n    Recoil_Vertical = Weapons_RecoilValues[active_weapon * 2];\n    Recoil_Horizontal = Weapons_RecoilValues[active_weapon * 2 + 1];\n\n    // Advance LCG seed every cycle for well-distributed variance\n    _jitter_seed = (_jitter_seed * 1103515245 + 12345) ^ get_rtime();\n\n    // Per-cycle variance: ±15% of base value, V and H derived independently\n    random_variance_v = (abs(_jitter_seed) % 31) - 15;\n    random_variance_h = (abs(_jitter_seed / 31) % 23) - 11;\n\n    if (Recoil_Vertical != 0) {\n        set_val(PS5_RY, clamp(get_val(PS5_RY) + Recoil_Vertical + (random_variance_v * abs(Recoil_Vertical) / 100), -100, 100));\n    }\n    if (Recoil_Horizontal != 0) {\n        set_val(PS5_RX, clamp(get_val(PS5_RX) + Recoil_Horizontal + (random_variance_h * abs(Recoil_Horizontal) / 100), -100, 100));\n    }\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AntiRecoilStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "V Mod.",
+                "variable": "AR_TempV",
+                "type": "value",
+                "defaultValue": 0,
+                "min": -100,
+                "max": 100,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "H Mod.",
+                "variable": "AR_TempH",
+                "type": "value",
+                "defaultValue": 0,
+                "min": -100,
+                "max": 100,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "AR_EditWeapon": "int",
+              "AntiRecoil_SubPage": "int",
+              "random_variance_h": "int",
+              "AntiRecoil_Timer": "int",
+              "active_weapon": "int",
+              "Recoil_Vertical": "int",
+              "Recoil_Horizontal": "int",
+              "random_variance_v": "int"
+            },
+            "params": null,
+            "conflicts": [
+              "antirecoil_decay",
+              "antirecoil_timeline"
+            ],
+            "quickToggle": null,
+            "needsWeapondata": true,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "3a5864e8-cbeb-417f-b54d-d75654e920dd",
+          "type": "module",
+          "label": "Auto Ping",
+          "position": {
+            "x": 820.0,
+            "y": 200.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoPingStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AutoPingInterval",
+              "type": "int",
+              "defaultValue": 1000,
+              "persist": true,
+              "min": 100,
+              "max": 2000,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "autoping",
+            "moduleName": "Auto Ping",
+            "triggerCondition": "",
+            "enableVariable": "AutoPingStatus",
+            "initCode": "",
+            "mainCode": "if (AutoPingStatus && get_val(PS5_L2) && event_press(PS5_R2)) {\n    combo_run(AutoPing);\n}",
+            "functionsCode": "",
+            "comboCode": "combo AutoPing {\n    set_val(AUTOPING_PING_BTN, 100);\n    wait(jitter(50));\n    set_val(AUTOPING_PING_BTN, 0);\n    wait(jitter(AutoPingInterval - 50));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AutoPingStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Interval",
+                "variable": "AutoPingInterval",
+                "type": "value",
+                "defaultValue": 1000,
+                "min": 100,
+                "max": 2000,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": {
+              "ping_btn": "PS5_UP"
+            },
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "ecbccaa8-4888-4aa4-b1bd-2bc62126f784",
+          "type": "module",
+          "label": "Bunny Hop",
+          "position": {
+            "x": 1080.0,
+            "y": 200.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "BunnyHopStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "BunnyHopInterval",
+              "type": "int",
+              "defaultValue": 50,
+              "persist": true,
+              "min": 20,
+              "max": 200,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "bunnyhop",
+            "moduleName": "Bunny Hop",
+            "triggerCondition": "",
+            "enableVariable": "BunnyHopStatus",
+            "initCode": "",
+            "mainCode": "if (BunnyHopStatus && get_val(BUNNYHOP_JUMP_KEY)) {\n    combo_run(BunnyHop);\n}",
+            "functionsCode": "",
+            "comboCode": "combo BunnyHop {\n    set_val(BUNNYHOP_JUMP_BTN, 100);\n    wait(jitter(BunnyHopInterval));\n    set_val(BUNNYHOP_JUMP_BTN, 0);\n    wait(jitter(BunnyHopInterval));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "BunnyHopStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Interval",
+                "variable": "BunnyHopInterval",
+                "type": "value",
+                "defaultValue": 50,
+                "min": 20,
+                "max": 200,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": {
+              "jump_key": "KEY_SPACE",
+              "jump_btn": "PS5_CROSS"
+            },
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "a4b3749e-bab4-4acb-af3f-14394d697765",
+          "type": "module",
+          "label": "Crouch Shot",
+          "position": {
+            "x": 300.0,
+            "y": 340.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "CrouchShotStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "crouchshot",
+            "moduleName": "Crouch Shot",
+            "triggerCondition": "",
+            "enableVariable": "CrouchShotStatus",
+            "initCode": "",
+            "mainCode": "if (CrouchShotStatus && get_val(PS5_L2) && get_val(PS5_R2)) {\n    if (!combo_running(CrouchShot)) {\n        combo_run(CrouchShot);\n    }\n}",
+            "functionsCode": "",
+            "comboCode": "combo CrouchShot {\n    set_val(PS5_CIRCLE, 100);\n    wait(jitter(75));\n    set_val(PS5_CIRCLE, 0);\n    wait(jitter(125));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "CrouchShotStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "bca65cfc-363c-4b17-9e6d-a32da6259bab",
+          "type": "module",
+          "label": "Hold Breath",
+          "position": {
+            "x": 560.0,
+            "y": 340.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "HoldBreathStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "HoldBreathDuration",
+              "type": "int",
+              "defaultValue": 10000,
+              "persist": true,
+              "min": 1000,
+              "max": 30000,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "holdbreath",
+            "moduleName": "Hold Breath",
+            "triggerCondition": "",
+            "enableVariable": "HoldBreathStatus",
+            "initCode": "",
+            "mainCode": "if (HoldBreathStatus && get_val(PS5_L2)) {\n    if (!combo_running(HoldBreath)) {\n        combo_run(HoldBreath);\n    }\n}\nif (HoldBreathStatus && !get_val(PS5_L2)) {\n    combo_stop(HoldBreath);\n}",
+            "functionsCode": "",
+            "comboCode": "combo HoldBreath {\n    set_val(PS5_L3, 100);\n    wait(jitter(HoldBreathDuration));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "HoldBreathStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Duration",
+                "variable": "HoldBreathDuration",
+                "type": "value",
+                "defaultValue": 10000,
+                "min": 1000,
+                "max": 30000,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "9757c09a-9a2d-42c5-9016-b447918c0874",
+          "type": "module",
+          "label": "Lean Spam",
+          "position": {
+            "x": 820.0,
+            "y": 340.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "LeanSpamStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "LeanSpamSpeed",
+              "type": "int",
+              "defaultValue": 100,
+              "persist": true,
+              "min": 20,
+              "max": 500,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "leanspam",
+            "moduleName": "Lean Spam",
+            "triggerCondition": "",
+            "enableVariable": "LeanSpamStatus",
+            "initCode": "",
+            "mainCode": "if (LeanSpamStatus && get_val(PS5_L2) && get_val(PS5_R2)) {\n    combo_run(LeanSpam);\n}\nif (!get_val(PS5_R2) && combo_running(LeanSpam)) {\n    combo_stop(LeanSpam);\n}",
+            "functionsCode": "",
+            "comboCode": "combo LeanSpam {\n    set_val(LEANSPAM_LEAN_RIGHT_BTN, 100);\n    wait(jitter(100));\n    set_val(LEANSPAM_LEAN_RIGHT_BTN, 0);\n    wait(jitter(LeanSpamSpeed));\n    set_val(LEANSPAM_LEAN_LEFT_BTN, 100);\n    wait(jitter(100));\n    set_val(LEANSPAM_LEAN_LEFT_BTN, 0);\n    wait(jitter(LeanSpamSpeed));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "LeanSpamStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Speed",
+                "variable": "LeanSpamSpeed",
+                "type": "value",
+                "defaultValue": 100,
+                "min": 20,
+                "max": 500,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": {
+              "lean_right_btn": "PS5_R3",
+              "lean_left_btn": "PS5_L3"
+            },
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "4791c2d0-0e0a-4b3f-bbf8-6cc831cdd51d",
+          "type": "module",
+          "label": "Rapid Fire",
+          "position": {
+            "x": 1080.0,
+            "y": 340.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "RapidFireStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "RapidFireSpeed",
+              "type": "int",
+              "defaultValue": 5,
+              "persist": true,
+              "min": 1,
+              "max": 10,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "rapid",
+            "moduleName": "Rapid Fire",
+            "triggerCondition": "",
+            "enableVariable": "RapidFireStatus",
+            "initCode": "",
+            "mainCode": "if (RapidFireStatus && get_val(PS5_R2) && get_val(PS5_L2)) {\n    combo_run(RapidFire);\n} else {\n    combo_stop(RapidFire);\n}",
+            "functionsCode": "",
+            "comboCode": "combo RapidFire {\n    RapidFireActualSpeed = RapidFireSpeed * 20;\n    wait(jitter(RapidFireActualSpeed));\n    set_val(PS5_R2, 100);\n    wait(jitter(RapidFireActualSpeed));\n    set_val(PS5_R2, 0);\n    wait(jitter(RapidFireActualSpeed));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "RapidFireStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Speed",
+                "variable": "RapidFireSpeed",
+                "type": "value",
+                "defaultValue": 5,
+                "min": 1,
+                "max": 10,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "RapidFireActualSpeed": "int"
+            },
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "ac4e3e3a-539a-442a-9786-594c1fe79959",
+          "type": "module",
+          "label": "Always Run",
+          "position": {
+            "x": 300.0,
+            "y": 480.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AlwaysRunStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AlwaysRunThreshold",
+              "type": "int",
+              "defaultValue": 95,
+              "persist": true,
+              "min": 50,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "alwaysrun",
+            "moduleName": "Always Run",
+            "triggerCondition": "",
+            "enableVariable": "AlwaysRunStatus",
+            "initCode": "",
+            "mainCode": "if (AlwaysRunStatus && get_val(PS5_LY) < -AlwaysRunThreshold) {\n    set_val(PS5_L3, 100);\n}",
+            "functionsCode": "",
+            "comboCode": "",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AlwaysRunStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Threshold",
+                "variable": "AlwaysRunThreshold",
+                "type": "value",
+                "defaultValue": 95,
+                "min": 50,
+                "max": 100,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "bef748cf-3b76-42f3-a8c6-f31bc6e6754b",
+          "type": "module",
+          "label": "Auto Run",
+          "position": {
+            "x": 560.0,
+            "y": 480.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoRunStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AutoRunThreshold",
+              "type": "int",
+              "defaultValue": 80,
+              "persist": true,
+              "min": 50,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "autorun",
+            "moduleName": "Auto Run",
+            "triggerCondition": "",
+            "enableVariable": "AutoRunStatus",
+            "initCode": "",
+            "mainCode": "if (AutoRunStatus) {\n    _lx = get_val(PS5_LX);\n    _ly = get_val(PS5_LY);\n    _mag = isqrt(_lx * _lx + _ly * _ly);\n    if (_mag > AutoRunThreshold) {\n        AutoRunLX = _lx * 100 / _mag;\n        AutoRunLY = _ly * 100 / _mag;\n        AutoRunActive = 1;\n    } else if (_mag < 20) {\n        AutoRunActive = 0;\n    }\n    if (AutoRunActive) {\n        set_val(PS5_LX, AutoRunLX);\n        set_val(PS5_LY, AutoRunLY);\n    }\n}",
+            "functionsCode": "",
+            "comboCode": "",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AutoRunStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Threshold",
+                "variable": "AutoRunThreshold",
+                "type": "value",
+                "defaultValue": 80,
+                "min": 50,
+                "max": 100,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "AutoRunLY": "int",
+              "_lx": "int",
+              "_ly": "int",
+              "_mag": "int",
+              "AutoRunActive": "int",
+              "AutoRunLX": "int"
+            },
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "0e19db37-dd20-4081-b41c-7732783b7ee2",
+          "type": "module",
+          "label": "Auto Run KB",
+          "position": {
+            "x": 820.0,
+            "y": 480.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoRunKBStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "autorunkb",
+            "moduleName": "Auto Run KB",
+            "triggerCondition": "",
+            "enableVariable": "AutoRunKBStatus",
+            "initCode": "",
+            "mainCode": "if (AutoRunKBStatus) {\n    if (GetKeyboardKey(AUTORUNKB_ACTIVATE_KEY)) {\n        AutoRunKBActive = 1;\n    }\n    if (AutoRunKBActive) {\n        if (GetKeyboardKey(KEY_W) || GetKeyboardKey(KEY_A) ||\n            GetKeyboardKey(KEY_S) || GetKeyboardKey(KEY_D)) {\n            AutoRunKBActive = 0;\n        } else {\n            set_val(PS5_LY, -100);\n        }\n    }\n}",
+            "functionsCode": "",
+            "comboCode": "",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AutoRunKBStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "AutoRunKBActive": "int"
+            },
+            "params": {
+              "activate_key": "KEY_G"
+            },
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        },
+        {
+          "id": "7f946fe8-7caa-4ea7-bf6c-889d67853a6a",
+          "type": "module",
+          "label": "Strafe",
+          "position": {
+            "x": 1080.0,
+            "y": 480.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "StrafeStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "StrafeStrength",
+              "type": "int",
+              "defaultValue": 50,
+              "persist": true,
+              "min": 1,
+              "max": 100,
+              "arraySize": null
+            },
+            {
+              "name": "StrafeSpeed",
+              "type": "int",
+              "defaultValue": 100,
+              "persist": true,
+              "min": 50,
+              "max": 300,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "strafe",
+            "moduleName": "Strafe",
+            "triggerCondition": "",
+            "enableVariable": "StrafeStatus",
+            "initCode": "",
+            "mainCode": "if (StrafeStatus && get_val(PS5_R2)) {\n    if (abs(get_val(PS5_LX)) > 70 || abs(get_val(PS5_LY)) > 70) {\n        combo_stop(Strafe);\n    } else {\n        combo_run(Strafe);\n    }\n}\nif (!get_val(PS5_R2) && combo_running(Strafe)) {\n    combo_stop(Strafe);\n}",
+            "functionsCode": "",
+            "comboCode": "combo Strafe {\n    StrafeActual = (StrafeStrength * 327);\n    set_val(PS5_LX, clamp(get_val(PS5_LX) + StrafeActual, -32767, 32767));\n    wait(jitter(StrafeSpeed));\n    set_val(PS5_LX, clamp(get_val(PS5_LX) - StrafeActual, -32767, 32767));\n    wait(jitter(StrafeSpeed));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "StrafeStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Strength",
+                "variable": "StrafeStrength",
+                "type": "value",
+                "defaultValue": 50,
+                "min": 1,
+                "max": 100,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Speed",
+                "variable": "StrafeSpeed",
+                "type": "value",
+                "defaultValue": 100,
+                "min": 50,
+                "max": 300,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "StrafeActual": "int"
+            },
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null,
+            "flowTarget": "gameplay",
+            "customArrays": null
+          }
+        }
+      ],
+      "edges": [],
+      "globalVariables": [],
+      "globalCode": "",
+      "settings": {
+        "screenTimeoutMs": 5000,
+        "defaultFont": "OLED_FONT_SMALL",
+        "includeCommonUtils": true,
+        "persistenceEnabled": true,
+        "buttonMapping": {
+          "confirm": "PS5_CROSS",
+          "cancel": "PS5_CIRCLE",
+          "up": "PS5_UP",
+          "down": "PS5_DOWN",
+          "left": "PS5_LEFT",
+          "right": "PS5_RIGHT"
+        }
+      },
+      "createdAt": 1773251513568,
+      "updatedAt": 1773253365145
+    },
+    {
+      "id": "f69a012e-b76d-45d8-9c78-b28e3eb5b3fa",
+      "name": "Data",
+      "version": 2,
+      "flowType": "data",
+      "nodes": [
+        {
+          "id": "d285824b-a1fc-478f-8a0a-1de6aff55837",
+          "type": "module",
+          "label": "Weapon Data",
+          "position": {
+            "x": 300.0,
+            "y": 200.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": true,
+          "variables": [
+            {
+              "name": "CurrentWeapon",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": 0,
+              "max": 255,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "weapondata",
+            "moduleName": "Weapon Data",
+            "triggerCondition": "",
+            "enableVariable": "Weapondata_Enabled",
+            "initCode": "",
+            "mainCode": "// Weapon data initialization\nif (!WeaponData_Initialized) {\n    InitializeWeaponData();\n    WeaponData_Initialized = TRUE;\n}",
+            "functionsCode": "function GetActiveWeapon() {\n    return CurrentWeapon;\n}\n\nfunction InitializeWeaponData() {\n    for (weapon_init_idx = 0; weapon_init_idx < WEAPON_COUNT; weapon_init_idx++) {\n        Weapons_RecoilValues[weapon_init_idx * 2] = 0;\n        Weapons_RecoilValues[weapon_init_idx * 2 + 1] = 0;\n    }\n}",
+            "comboCode": "",
+            "triggerCode": null,
+            "options": [],
+            "extraVars": {
+              "WeaponData_Initialized": "int",
+              "Weapons_RecoilValues": "int [216]",
+              "weapon_init_idx": "int",
+              "CurrentWeapon": "int [profile]"
+            },
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": true,
+            "keyboardMappings": null,
+            "flowTarget": "data",
+            "customArrays": null
+          }
+        }
+      ],
+      "edges": [],
+      "globalVariables": [],
+      "globalCode": "",
+      "settings": {
+        "screenTimeoutMs": 5000,
+        "defaultFont": "OLED_FONT_SMALL",
+        "includeCommonUtils": true,
+        "persistenceEnabled": true,
+        "buttonMapping": {
+          "confirm": "PS5_CROSS",
+          "cancel": "PS5_CIRCLE",
+          "up": "PS5_UP",
+          "down": "PS5_DOWN",
+          "left": "PS5_LEFT",
+          "right": "PS5_RIGHT"
+        }
+      },
+      "createdAt": 1773251513568,
+      "updatedAt": 1773251591598
+    }
+  ],
+  "sharedVariables": [
+    {
+      "name": "AimPolarStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AimPolarSize",
+      "type": "int",
+      "defaultValue": 15,
+      "persist": true,
+      "min": 1,
+      "max": 30,
+      "arraySize": null
+    },
+    {
+      "name": "AimPolarSpeed",
+      "type": "int",
+      "defaultValue": 20,
+      "persist": true,
+      "min": 5,
+      "max": 50,
+      "arraySize": null
+    },
+    {
+      "name": "AntiRecoilStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AR_TempV",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": -100,
+      "max": 100,
+      "arraySize": null
+    },
+    {
+      "name": "AR_TempH",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": -100,
+      "max": 100,
+      "arraySize": null
+    },
+    {
+      "name": "AutoPingStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AutoPingInterval",
+      "type": "int",
+      "defaultValue": 1000,
+      "persist": true,
+      "min": 100,
+      "max": 2000,
+      "arraySize": null
+    },
+    {
+      "name": "BunnyHopStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "BunnyHopInterval",
+      "type": "int",
+      "defaultValue": 50,
+      "persist": true,
+      "min": 20,
+      "max": 200,
+      "arraySize": null
+    },
+    {
+      "name": "CrouchShotStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "HoldBreathStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "HoldBreathDuration",
+      "type": "int",
+      "defaultValue": 10000,
+      "persist": true,
+      "min": 1000,
+      "max": 30000,
+      "arraySize": null
+    },
+    {
+      "name": "LeanSpamStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "LeanSpamSpeed",
+      "type": "int",
+      "defaultValue": 100,
+      "persist": true,
+      "min": 20,
+      "max": 500,
+      "arraySize": null
+    },
+    {
+      "name": "RapidFireStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "RapidFireSpeed",
+      "type": "int",
+      "defaultValue": 5,
+      "persist": true,
+      "min": 1,
+      "max": 10,
+      "arraySize": null
+    },
+    {
+      "name": "AlwaysRunStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AlwaysRunThreshold",
+      "type": "int",
+      "defaultValue": 95,
+      "persist": true,
+      "min": 50,
+      "max": 100,
+      "arraySize": null
+    },
+    {
+      "name": "AutoRunStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AutoRunThreshold",
+      "type": "int",
+      "defaultValue": 80,
+      "persist": true,
+      "min": 50,
+      "max": 100,
+      "arraySize": null
+    },
+    {
+      "name": "AutoRunKBStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "StrafeStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "StrafeStrength",
+      "type": "int",
+      "defaultValue": 50,
+      "persist": true,
+      "min": 1,
+      "max": 100,
+      "arraySize": null
+    },
+    {
+      "name": "StrafeSpeed",
+      "type": "int",
+      "defaultValue": 100,
+      "persist": true,
+      "min": 50,
+      "max": 300,
+      "arraySize": null
+    }
+  ],
+  "sharedCode": "",
+  "updatedAt": 1773253522038
+}

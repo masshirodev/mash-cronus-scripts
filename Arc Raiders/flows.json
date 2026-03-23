@@ -1,0 +1,2468 @@
+{
+  "version": 1,
+  "flows": [
+    {
+      "id": "66dcd7a9-95b2-41d5-bc89-ee089eaeb710",
+      "name": "Menu Flow",
+      "version": 2,
+      "flowType": "menu",
+      "nodes": [
+        {
+          "id": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "type": "menu",
+          "label": "Module Settings",
+          "position": {
+            "x": 300.0,
+            "y": 101.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [
+            {
+              "id": "141b4161-584b-4c7d-b108-5601c06754cb",
+              "type": "menu-item",
+              "label": "Aim Assist",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "cursorStyle": "prefix",
+                "font": "default",
+                "prefixSpacing": 1,
+                "prefixChar": ">",
+                "label": "Aim Assist (Polar)",
+                "__auto_module": "aimassist_polar"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "2d297b0c-23ee-41a2-a8cb-e174609ba5ee",
+              "type": "menu-item",
+              "label": "Always Run",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "prefixSpacing": 1,
+                "label": "Always Run",
+                "font": "default",
+                "__auto_module": "alwaysrun",
+                "cursorStyle": "prefix",
+                "prefixChar": ">"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "7f4bc5bc-2858-4b78-a15c-0f0943ef6de8",
+              "type": "menu-item",
+              "label": "Anti Recoil",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": true,
+              "config": {
+                "prefixChar": ">",
+                "prefixSpacing": 1,
+                "font": "default",
+                "__auto_module": "antirecoil_timeline",
+                "cursorStyle": "prefix",
+                "label": "Anti Recoil (Timeline)"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "30a132fa-fd3a-4a1c-966e-d2d982dd87fe",
+              "type": "menu-item",
+              "label": "Auto Ping",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 3,
+              "interactive": true,
+              "config": {
+                "label": "Auto Ping",
+                "prefixSpacing": 1,
+                "__auto_module": "autoping",
+                "prefixChar": ">",
+                "cursorStyle": "prefix",
+                "font": "default"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "12981e86-3291-472e-b149-ca279457ac27",
+              "type": "menu-item",
+              "label": "Auto Run",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 4,
+              "interactive": true,
+              "config": {
+                "label": "Auto Run KB",
+                "prefixChar": ">",
+                "__auto_module": "autorunkb",
+                "prefixSpacing": 1,
+                "font": "default",
+                "cursorStyle": "prefix"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "bb95cdca-07dd-4d92-add9-5c9633ad6ba9",
+              "type": "menu-item",
+              "label": "Keyboard",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 5,
+              "interactive": true,
+              "config": {
+                "prefixSpacing": 1,
+                "font": "default",
+                "prefixChar": ">",
+                "label": "Keyboard",
+                "cursorStyle": "prefix",
+                "__auto_module": "keyboard"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "56796ba1-5e54-4b55-8e89-8bcb61e38c20",
+              "type": "menu-item",
+              "label": "Rapid Fire",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 6,
+              "interactive": true,
+              "config": {
+                "prefixSpacing": 1,
+                "label": "Rapid Fire",
+                "prefixChar": ">",
+                "font": "default",
+                "cursorStyle": "prefix",
+                "__auto_module": "rapid"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 15.0,
+          "stackOffsetY": 10.0,
+          "visibleCount": 4,
+          "scrollMode": "window",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "6e7bda45-19ff-400d-b4ba-4b9e648df9dd",
+          "type": "submenu",
+          "label": "Aim Assist (Polar)",
+          "position": {
+            "x": 650.0,
+            "y": 100.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AimPolarStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AimPolarSize",
+              "type": "int",
+              "defaultValue": 15,
+              "persist": true,
+              "min": 1,
+              "max": 30,
+              "arraySize": null
+            },
+            {
+              "name": "AimPolarSpeed",
+              "type": "int",
+              "defaultValue": 20,
+              "persist": true,
+              "min": 5,
+              "max": 50,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:aimassist_polar",
+          "subNodes": [
+            {
+              "id": "6fd220a3-aa46-489c-9716-8872cc5fb4ac",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "cursorStyle": "prefix",
+                "onText": "ON",
+                "label": "Status",
+                "prefixChar": ">",
+                "font": "default",
+                "__auto_module": "aimassist_polar",
+                "prefixSpacing": 1,
+                "valueAlign": "right",
+                "offText": "OFF"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AimPolarStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "5e2102c7-550c-42df-a01e-f711b08567d9",
+              "type": "value-item",
+              "label": "Size",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "valueAlign": "right",
+                "cursorStyle": "prefix",
+                "min": 1,
+                "step": 1,
+                "font": "default",
+                "label": "Size",
+                "__auto_module": "aimassist_polar",
+                "prefixChar": ">",
+                "prefixSpacing": 1,
+                "max": 30,
+                "format": "{value}"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AimPolarSize",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "2017ddd3-3482-4c45-8555-ec3b1c86df7b",
+              "type": "value-item",
+              "label": "Speed",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": true,
+              "config": {
+                "cursorStyle": "prefix",
+                "font": "default",
+                "format": "{value}",
+                "prefixChar": ">",
+                "max": 50,
+                "label": "Speed",
+                "min": 5,
+                "step": 1,
+                "prefixSpacing": 1,
+                "valueAlign": "right",
+                "__auto_module": "aimassist_polar"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AimPolarSpeed",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 15.0,
+          "stackOffsetY": 10.0,
+          "visibleCount": null,
+          "scrollMode": "wrap",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "8d4303bd-01cf-409c-8c08-f53b2ef671cb",
+          "type": "submenu",
+          "label": "Always Run",
+          "position": {
+            "x": 650.0,
+            "y": 300.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AlwaysRunStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AlwaysRunThreshold",
+              "type": "int",
+              "defaultValue": 95,
+              "persist": true,
+              "min": 50,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:alwaysrun",
+          "subNodes": [
+            {
+              "id": "78aa5fbe-9e2e-4a94-9121-51ce90bdece0",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "cursorStyle": "prefix",
+                "font": "default",
+                "prefixSpacing": 1,
+                "offText": "OFF",
+                "onText": "ON",
+                "valueAlign": "right",
+                "__auto_module": "alwaysrun",
+                "label": "Status",
+                "prefixChar": ">"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AlwaysRunStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "119f4c05-9be1-48c7-96b1-2409135552e8",
+              "type": "value-item",
+              "label": "Threshold",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "__auto_module": "alwaysrun",
+                "font": "default",
+                "prefixSpacing": 1,
+                "max": 100,
+                "label": "Threshold",
+                "cursorStyle": "prefix",
+                "step": 1,
+                "prefixChar": ">",
+                "valueAlign": "right",
+                "min": 50,
+                "format": "{value}"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AlwaysRunThreshold",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 15.0,
+          "stackOffsetY": 10.0,
+          "visibleCount": null,
+          "scrollMode": "wrap",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "7c6f02e5-6c69-4841-943b-0a30d2a6dbe2",
+          "type": "submenu",
+          "label": "Anti Recoil (Timeline)",
+          "position": {
+            "x": 650.0,
+            "y": 500.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AntiRecoilStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AR_TempV",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": -100,
+              "max": 100,
+              "arraySize": null
+            },
+            {
+              "name": "AR_TempH",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": -100,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:antirecoil_timeline",
+          "subNodes": [
+            {
+              "id": "d544cf19-43ec-4705-a7c6-8f145b9d44c8",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "valueAlign": "right",
+                "font": "default",
+                "offText": "OFF",
+                "prefixSpacing": 1,
+                "prefixChar": ">",
+                "onText": "ON",
+                "__auto_module": "antirecoil_timeline",
+                "cursorStyle": "prefix",
+                "label": "Status"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AntiRecoilStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "d0532117-e797-45d2-8fbd-4412f9ce192e",
+              "type": "value-item",
+              "label": "V Mod.",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "prefixChar": ">",
+                "min": -100,
+                "__auto_module": "antirecoil_timeline",
+                "step": 1,
+                "font": "default",
+                "cursorStyle": "prefix",
+                "valueAlign": "right",
+                "label": "V Mod.",
+                "format": "{value}",
+                "prefixSpacing": 1,
+                "max": 100
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AR_TempV",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "895526c6-24d0-4c96-b55e-a9e195422e9b",
+              "type": "value-item",
+              "label": "H Mod.",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": true,
+              "config": {
+                "format": "{value}",
+                "max": 100,
+                "cursorStyle": "prefix",
+                "label": "H Mod.",
+                "prefixChar": ">",
+                "valueAlign": "right",
+                "__auto_module": "antirecoil_timeline",
+                "font": "default",
+                "min": -100,
+                "step": 1,
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AR_TempH",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 15.0,
+          "stackOffsetY": 10.0,
+          "visibleCount": null,
+          "scrollMode": "wrap",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "1074ab5b-c859-4061-a607-a1c48c1cb168",
+          "type": "submenu",
+          "label": "Auto Ping",
+          "position": {
+            "x": 650.0,
+            "y": 700.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoPingStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AutoPingInterval",
+              "type": "int",
+              "defaultValue": 1000,
+              "persist": true,
+              "min": 100,
+              "max": 2000,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:autoping",
+          "subNodes": [
+            {
+              "id": "f132fa9b-9400-48a0-aaef-c0dcfd10af5c",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "valueAlign": "right",
+                "onText": "ON",
+                "__auto_module": "autoping",
+                "prefixSpacing": 1,
+                "offText": "OFF",
+                "cursorStyle": "prefix",
+                "font": "default",
+                "prefixChar": ">",
+                "label": "Status"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AutoPingStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "4f9b254e-64f1-4922-9102-4b10ee23d1da",
+              "type": "value-item",
+              "label": "Interval",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "cursorStyle": "prefix",
+                "valueAlign": "right",
+                "step": 1,
+                "label": "Interval",
+                "format": "{value}",
+                "min": 100,
+                "prefixSpacing": 1,
+                "__auto_module": "autoping",
+                "font": "default",
+                "max": 2000,
+                "prefixChar": ">"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AutoPingInterval",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 15.0,
+          "stackOffsetY": 10.0,
+          "visibleCount": null,
+          "scrollMode": "wrap",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "a10d06d3-cfa2-47b7-8c8d-73f5b83700b3",
+          "type": "submenu",
+          "label": "Auto Run KB",
+          "position": {
+            "x": 650.0,
+            "y": 900.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoRunKBStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:autorunkb",
+          "subNodes": [
+            {
+              "id": "4c289ac8-2b8e-48ff-a376-421918ffc65a",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "label": "Status",
+                "valueAlign": "right",
+                "offText": "OFF",
+                "prefixSpacing": 1,
+                "cursorStyle": "prefix",
+                "__auto_module": "autorunkb",
+                "onText": "ON",
+                "font": "default",
+                "prefixChar": ">"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "AutoRunKBStatus",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 15.0,
+          "stackOffsetY": 10.0,
+          "visibleCount": null,
+          "scrollMode": "wrap",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "62c93c93-0f96-47ea-b494-a4e653f84aa0",
+          "type": "submenu",
+          "label": "Keyboard",
+          "position": {
+            "x": 650.0,
+            "y": 1100.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "KeyboardStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:keyboard",
+          "subNodes": [
+            {
+              "id": "71e34c90-e114-47dd-a523-631a2aef5fba",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "onText": "ON",
+                "valueAlign": "right",
+                "prefixSpacing": 1,
+                "label": "Status",
+                "__auto_module": "keyboard",
+                "prefixChar": ">",
+                "cursorStyle": "prefix",
+                "offText": "OFF",
+                "font": "default"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "KeyboardStatus",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 15.0,
+          "stackOffsetY": 10.0,
+          "visibleCount": null,
+          "scrollMode": "wrap",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "612de3bb-6448-4d8c-9495-d7432dcbd8a7",
+          "type": "submenu",
+          "label": "Rapid Fire",
+          "position": {
+            "x": 649.0,
+            "y": 1300.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "RapidFireStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "RapidFireSpeed",
+              "type": "int",
+              "defaultValue": 5,
+              "persist": true,
+              "min": 1,
+              "max": 10,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "__auto_module:rapid",
+          "subNodes": [
+            {
+              "id": "e59d7149-cd84-459a-bd36-271f450c8352",
+              "type": "toggle-item",
+              "label": "Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": true,
+              "config": {
+                "__auto_module": "rapid",
+                "cursorStyle": "prefix",
+                "prefixChar": ">",
+                "valueAlign": "right",
+                "offText": "OFF",
+                "label": "Status",
+                "onText": "ON",
+                "prefixSpacing": 1,
+                "font": "default"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "RapidFireStatus",
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "906d1b74-7438-496e-a08f-fd28980d8418",
+              "type": "value-item",
+              "label": "Speed",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": true,
+              "config": {
+                "font": "default",
+                "step": 1,
+                "__auto_module": "rapid",
+                "min": 1,
+                "prefixSpacing": 1,
+                "format": "{value}",
+                "valueAlign": "right",
+                "prefixChar": ">",
+                "cursorStyle": "prefix",
+                "label": "Speed",
+                "max": 10
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "RapidFireSpeed",
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 15.0,
+          "stackOffsetY": 10.0,
+          "visibleCount": null,
+          "scrollMode": "wrap",
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": true,
+          "moduleData": null
+        },
+        {
+          "id": "46123a32-acbe-4a64-a900-a0f08c4dede5",
+          "type": "home",
+          "label": "Home",
+          "position": {
+            "x": -212.0,
+            "y": 124.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "1f50ae0d-4ddb-4ec6-9d34-dbdd9b914223",
+          "subNodes": [
+            {
+              "id": "441d1874-62e6-4e64-9764-ee5c42e82b2b",
+              "type": "pixel-art",
+              "label": "Outline",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "label": "Pixel Art",
+                "width": 128,
+                "scene": {
+                  "id": "07fde0df-8da4-4009-9eb4-9eb1334566e8",
+                  "name": "Outline",
+                  "pixels": "/////////////////////4AAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAB/////////////////////w=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "72a9e156-d6d6-4799-b4d7-0e7dfbdf3bbd",
+              "type": "pixel-art",
+              "label": "Splash Screen",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": false,
+              "config": {
+                "scene": {
+                  "id": "45c6c7c7-1660-4cde-8e98-6b4712f6621d",
+                  "name": "Splash Screen",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf////////////D//////AEAAAAAAAAAAAAA//zfnMQBAAAAAAAAAAAAEP/+b8wEATGHB8PjGHj8PhCb/3/GRAE7jYxmMxgwZmMQ9vuX72QBP5jGAwMYMGZjEPyey+MsATWYw4HD+DB8YxD/EIf13AExn8DAYxgwbGMQ7+Px+5wBMZjMZjMYMGZjELz8YfpUATGYx8PjGHjmPhDDze59zAEAAAAAAAAAAAAQ9zx5jwQBAAAAAAAAAAAAEPz8EAAEASupK4AAAAAAABD/P///5AE5OrkAAAAAAAAQ/8f//tQBOTu5AAAAAAAAEOf898A0ASkqqQAAAAAAABD8f4AIdAErqquAAAAAAAAQ//gAEPwBAAAAAAAAAAAAEP//AAH0AQAAAAAAAAAAABDAAKgD/AH////////////w/BcAB/wAAAAAAAAAAAAAAPD4gAv8AAAAAAAAAAAAAADD8AAL/AAAAAAAAAAAAAAAz8gUh+wAAAAAAAAAAAAAAL+BtIX8AAAAAAAAAAAAAAD/Aw3V/AAAAAAAAAAAAAAA/wHpsvQAAAAAAAAAAAAAAP6J7Ur0AAAAAAAAAAAAAAD+HPsbfAAAAAAAAAAAAAAA/j8OG3wAAAAAAAAAAAAAAP8//Ds8AAAAAAAAAAAAAAD/PgI9HAAAAAAAAAAAAAAA//lt/ZwAAAAAAAAAAAAAAP/+5/28AAAAAAAAAAAAAAD//vcdjAAAAAAAAAAAAAAA///+HQwAAAAAAAAAAAAAAJ///j1EAAAAAAAAAAAAAACnz/89TAAAAAAAAAAAAAAAgf///cwAAAAAAAAAAAAAAOB///7MAAAAAAAAAAAAAAD////+zAAAAAAAAAAAAAAA////+9wAAAAAAAAAAAAAAP////mMAAAAAAAAAAAAAAD////zjAAAAAAAAAAAAAAA////4wwAMBAAI4ABARAAAP///+cMACmpmCCBArOBMYD////OLAAyOzAjg4KpEqsA////niwAIiCIIgECsRKogP///3zsACIbMDuAASCRKwD////8bAAAAAAAAAAAAAAA////+GwAAAAAP///////gP////gMAAAAAAAAAAAAAAD////wBAAQAAEAEhABAAAA9///4AQAOQEysDsoKrKAAMf+H+AMABKCq6gSuDuqgAC/8H/CzAASgrIoEqAqKoAA//////wACQEhqAqYKamQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "height": 64,
+                "width": 128,
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "c15ae64a-4787-474a-bcfd-be2519d7621f",
+              "type": "pixel-art",
+              "label": "Game Name",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 2,
+              "interactive": false,
+              "config": {
+                "scene": {
+                  "id": "7dd54eea-0236-41f4-974b-03e2534e1332",
+                  "name": "Game Name",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH////////////wAAAAAAABAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAABAAAAAAAAEDgAAHgBAQAAAQAAAAAAABBEAABEAAEAAAEAAAAAAAAQRWOAROMPOWPBAAAAAAAAEH2UAHgREUWUAQAAAAAAABBFBABQ8RF9A4EAAAAAAAAQRQRASRERQQBBAAAAAAAAEEUDgETzjzkHgQAAAAAAABAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAABAAAAAAAAH////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128,
+                "height": 64,
+                "label": "Pixel Art"
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": "PS5_CIRCLE",
+          "blockInputs": null,
+          "moduleData": null
+        },
+        {
+          "id": "3ce3800a-9f69-46fb-a528-562af19f7917",
+          "type": "custom",
+          "label": "States",
+          "position": {
+            "x": -28.475842097241294,
+            "y": 347.0
+          },
+          "gpcCode": "// Main render/logic — runs each cycle while in this state",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": "0f84204f-640e-40ab-9fcc-677df1c53195",
+          "subNodes": [
+            {
+              "id": "7f7487c3-2620-4df8-af90-fa08f988d0ba",
+              "type": "pixel-art",
+              "label": "Outline",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 0,
+              "interactive": false,
+              "config": {
+                "width": 128,
+                "label": "Pixel Art",
+                "height": 64,
+                "scene": {
+                  "id": "948bcc75-4746-41dd-81ef-6b800084491f",
+                  "name": "Outline",
+                  "pixels": "/////////////////////4AAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAB/////////////////////w=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "6fe138d9-752f-43ad-a843-9231d09898ad",
+              "type": "pixel-art",
+              "label": "Header",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 1,
+              "interactive": false,
+              "config": {
+                "width": 128,
+                "label": "Pixel Art",
+                "height": 64,
+                "scene": {
+                  "id": "72645053-2a80-4d0c-8160-9ee7a21a73ef",
+                  "name": "Header",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////8IAAAAAAgAAAAAAAAAAAABCAAAAAAIAAAAAAAAAAAAAQjnzn3ziAAAAAAAAAAAAAEJERERBEgAAAAAAAAAAAABCQEREQQIAAAAAAAAAAAAAQjhHxHjiAAAAAAAAAAAAAEIERERAEgAAAAAAAAAAAABCREREQRIAAAAAAAAAAAAAQjhERHziAAAAAAAAAAAAAEIAAAAAAgAAAAAAAAAAAABCAAAAAAIAAAAAAAAAAAAAQ////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "7b019b69-217b-4870-91cd-637a97276a37",
+              "type": "array-item",
+              "label": "W",
+              "position": "absolute",
+              "x": 45.0,
+              "y": 4.0,
+              "order": 2,
+              "interactive": false,
+              "config": {
+                "countVar": "WEAPON_COUNT",
+                "prefixChar": ">",
+                "useCountVar": true,
+                "font": "default",
+                "arraySize": 10,
+                "cursorStyle": "prefix",
+                "label": "Array Item",
+                "arrayName": "Weapons",
+                "prefixSpacing": 1
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": "CurrentWeapon",
+              "condition": null,
+              "displayText": "W"
+            },
+            {
+              "id": "dedc77d9-e7f2-4208-920a-da588574cf9f",
+              "type": "pixel-art",
+              "label": "Recoil",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 3,
+              "interactive": false,
+              "config": {
+                "height": 64,
+                "width": 128,
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "a1eb3b3a-936d-4caf-a431-d39495b48ef5",
+                  "name": "Recoil",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGIAJgAAA+AAAAAAAAAAAABVMgIAAAIgAAAAAAAAAAAAZ0UiAAACIAAAAAAAAAAAAFRFIgAAAiAAAAAAAAAAAABTMicAAAPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "3436bb6f-8d7f-4ffe-a55b-cf0073ed7d64",
+              "type": "pixel-art",
+              "label": "Rapid Fire",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 4,
+              "interactive": false,
+              "config": {
+                "scene": {
+                  "id": "09be0d00-322d-4c2f-8750-68d39c9fa4ef",
+                  "name": "Rapid Fire",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAhByAgPgAAAAAAAAAAAAU2AwQDUCIAAAAAAAAAAAAGVSUGJHAiAAAAAAAAAAAABVYlBCRAIgAAAAAAAAAAAAU0IwQkMD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                },
+                "width": 128,
+                "label": "Pixel Art",
+                "height": 64
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": null,
+              "displayText": null
+            },
+            {
+              "id": "06c6e501-ce80-44c8-b319-b5d23a3e835e",
+              "type": "pixel-art",
+              "label": "Recoil Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 5,
+              "interactive": false,
+              "config": {
+                "width": 128,
+                "label": "Pixel Art",
+                "height": 64,
+                "scene": {
+                  "id": "cf7748d9-645e-4fbe-a176-86739b9555b3",
+                  "name": "Recoil Status",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+AAAAAAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAAAAAAA+AAAAAAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "AntiRecoilStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            },
+            {
+              "id": "ccf53283-5a05-40f6-96fe-2c4e5f605412",
+              "type": "pixel-art",
+              "label": "Rapid Fire Status",
+              "position": "stack",
+              "x": null,
+              "y": null,
+              "order": 6,
+              "interactive": false,
+              "config": {
+                "width": 128,
+                "height": 64,
+                "label": "Pixel Art",
+                "scene": {
+                  "id": "093e271d-2a4c-4f1f-b73e-a205b937220c",
+                  "name": "States",
+                  "pixels": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAAAAAAA+AAAAAAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+                }
+              },
+              "renderCode": null,
+              "interactCode": null,
+              "boundVariable": null,
+              "condition": {
+                "variable": "RapidFireStatus",
+                "comparison": "==",
+                "value": 1
+              },
+              "displayText": null
+            }
+          ],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": null
+        }
+      ],
+      "edges": [
+        {
+          "id": "3bf04624-7a92-46b8-8199-d328e888263d",
+          "sourceNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "targetNodeId": "6e7bda45-19ff-400d-b4ba-4b9e648df9dd",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "141b4161-584b-4c7d-b108-5601c06754cb",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "bc33f125-ddbd-4f94-b15f-02ad120dbf77",
+          "sourceNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "targetNodeId": "8d4303bd-01cf-409c-8c08-f53b2ef671cb",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "2d297b0c-23ee-41a2-a8cb-e174609ba5ee",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "c15051e4-224b-4d4f-9a50-d31560dbfdec",
+          "sourceNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "targetNodeId": "7c6f02e5-6c69-4841-943b-0a30d2a6dbe2",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "7f4bc5bc-2858-4b78-a15c-0f0943ef6de8",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "423918a6-d1a7-4641-a389-7016df569822",
+          "sourceNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "targetNodeId": "1074ab5b-c859-4061-a607-a1c48c1cb168",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "30a132fa-fd3a-4a1c-966e-d2d982dd87fe",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "b5a7f045-d6a1-4d22-9535-488bf4ae8983",
+          "sourceNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "targetNodeId": "a10d06d3-cfa2-47b7-8c8d-73f5b83700b3",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "12981e86-3291-472e-b149-ca279457ac27",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "51c76d3f-68a5-4b0d-82e5-0db488681942",
+          "sourceNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "targetNodeId": "62c93c93-0f96-47ea-b494-a4e653f84aa0",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "bb95cdca-07dd-4d92-add9-5c9633ad6ba9",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "162f1ed1-401f-4e6a-bb51-f9a076715849",
+          "sourceNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "targetNodeId": "612de3bb-6448-4d8c-9495-d7432dcbd8a7",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "Open",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": null,
+            "variable": null,
+            "comparison": null,
+            "value": null,
+            "customCode": null
+          },
+          "sourceSubNodeId": "56796ba1-5e54-4b55-8e89-8bcb61e38c20",
+          "targetSubNodeId": null
+        },
+        {
+          "id": "dad85f1c-b083-436d-8379-59fe8edfe399",
+          "sourceNodeId": "46123a32-acbe-4a64-a900-a0f08c4dede5",
+          "targetNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "L2+Options",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_OPTIONS",
+            "modifiers": [
+              "PS5_L2"
+            ],
+            "timeoutMs": 3000,
+            "variable": null,
+            "comparison": "==",
+            "value": 0,
+            "customCode": null
+          },
+          "sourceSubNodeId": null,
+          "targetSubNodeId": null
+        },
+        {
+          "id": "cc905838-a519-401d-89ab-6ec479bffdd5",
+          "sourceNodeId": "46123a32-acbe-4a64-a900-a0f08c4dede5",
+          "targetNodeId": "3ce3800a-9f69-46fb-a528-562af19f7917",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "",
+          "condition": {
+            "type": "timeout",
+            "button": "PS5_CROSS",
+            "modifiers": null,
+            "timeoutMs": 3000,
+            "variable": null,
+            "comparison": "==",
+            "value": 0,
+            "customCode": null
+          },
+          "sourceSubNodeId": null,
+          "targetSubNodeId": null
+        },
+        {
+          "id": "af0993fe-073f-4698-b2b0-5be1f6192549",
+          "sourceNodeId": "3ce3800a-9f69-46fb-a528-562af19f7917",
+          "targetNodeId": "69ff1222-51ee-4534-b3fe-d6b66e33f317",
+          "sourcePort": "right",
+          "targetPort": "left",
+          "label": "L2+Options",
+          "condition": {
+            "type": "button_press",
+            "button": "PS5_OPTIONS",
+            "modifiers": [
+              "PS5_L2"
+            ],
+            "timeoutMs": 3000,
+            "variable": null,
+            "comparison": "==",
+            "value": 0,
+            "customCode": null
+          },
+          "sourceSubNodeId": null,
+          "targetSubNodeId": null
+        }
+      ],
+      "globalVariables": [],
+      "globalCode": "",
+      "settings": {
+        "screenTimeoutMs": 5000,
+        "defaultFont": "OLED_FONT_SMALL",
+        "includeCommonUtils": true,
+        "persistenceEnabled": true,
+        "buttonMapping": {
+          "confirm": "PS5_CROSS",
+          "cancel": "PS5_CIRCLE",
+          "up": "PS5_UP",
+          "down": "PS5_DOWN",
+          "left": "PS5_LEFT",
+          "right": "PS5_RIGHT"
+        }
+      },
+      "createdAt": 1772935721245,
+      "updatedAt": 1772950217116
+    },
+    {
+      "id": "1dfad02b-4f94-48db-a1fb-16e09d3b1e7c",
+      "name": "Gameplay Flow",
+      "version": 2,
+      "flowType": "gameplay",
+      "nodes": [
+        {
+          "id": "29cf7f83-41e2-457b-a6ce-5616a2b4df8a",
+          "type": "module",
+          "label": "Aim Assist (Polar)",
+          "position": {
+            "x": 300.0,
+            "y": 200.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": true,
+          "variables": [
+            {
+              "name": "AimPolarStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AimPolarSize",
+              "type": "int",
+              "defaultValue": 15,
+              "persist": true,
+              "min": 1,
+              "max": 30,
+              "arraySize": null
+            },
+            {
+              "name": "AimPolarSpeed",
+              "type": "int",
+              "defaultValue": 20,
+              "persist": true,
+              "min": 5,
+              "max": 50,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "aimassist_polar",
+            "moduleName": "Aim Assist (Polar)",
+            "triggerCondition": "",
+            "enableVariable": "AimPolarStatus",
+            "initCode": "",
+            "mainCode": "if (AimPolarStatus && get_val(PS5_L2)) {\n    combo_run(AimPolar);\n}",
+            "functionsCode": "define AIMPOL_X_AXIS = 0;\ndefine AIMPOL_Y_AXIS = 1;\nfunction AimPol_ToCart(angle_, radius_, axis_) {\n    set_polar2(POLAR_GHOST, angle_, radius_ * 100);\n    if (axis_ == AIMPOL_X_AXIS) {\n        return get_val(ANALOG_GHOSTX);\n    }\n    return get_val(ANALOG_GHOSTY);\n}",
+            "comboCode": "combo AimPolar {\n    AimPol_PolarX = get_val(PS5_RX) + AimPol_ToCart(AimPol_Angle, AimPolarSize, AIMPOL_X_AXIS);\n    AimPol_PolarY = get_val(PS5_RY) + AimPol_ToCart(AimPol_Angle, AimPolarSize, AIMPOL_Y_AXIS);\n    AimPol_Angle = (AimPol_Angle + AimPolarSpeed) % 360;\n    set_val(PS5_RX, clamp(AimPol_PolarX, -100, 100));\n    set_val(PS5_RY, clamp(AimPol_PolarY, -100, 100));\n    wait(10);\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AimPolarStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Size",
+                "variable": "AimPolarSize",
+                "type": "value",
+                "defaultValue": 15,
+                "min": 1,
+                "max": 30,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Speed",
+                "variable": "AimPolarSpeed",
+                "type": "value",
+                "defaultValue": 20,
+                "min": 5,
+                "max": 50,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "AimPol_PolarX": "int",
+              "AimPol_PolarY": "int",
+              "AimPol_Angle": "int"
+            },
+            "params": null,
+            "conflicts": [
+              "aimassist_square",
+              "aimassist_jitter",
+              "aimassist_circular",
+              "aimassist_leftstick"
+            ],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null
+          }
+        },
+        {
+          "id": "58052f79-e51f-4cd5-8620-6285bbacf147",
+          "type": "module",
+          "label": "Always Run",
+          "position": {
+            "x": 560.0,
+            "y": 200.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AlwaysRunStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AlwaysRunThreshold",
+              "type": "int",
+              "defaultValue": 95,
+              "persist": true,
+              "min": 50,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "alwaysrun",
+            "moduleName": "Always Run",
+            "triggerCondition": "",
+            "enableVariable": "AlwaysRunStatus",
+            "initCode": "",
+            "mainCode": "if (AlwaysRunStatus && get_val(PS5_LY) < -AlwaysRunThreshold) {\n    set_val(PS5_L3, 100);\n}",
+            "functionsCode": "",
+            "comboCode": "",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AlwaysRunStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Threshold",
+                "variable": "AlwaysRunThreshold",
+                "type": "value",
+                "defaultValue": 95,
+                "min": 50,
+                "max": 100,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null
+          }
+        },
+        {
+          "id": "ac525f5c-cca4-4ad7-8737-4f5f47e4543f",
+          "type": "module",
+          "label": "Weapon Data",
+          "position": {
+            "x": 560.0,
+            "y": 200.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "Weapondata_Enabled",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": 0,
+              "max": 1,
+              "arraySize": null
+            },
+            {
+              "name": "CurrentWeapon",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": 0,
+              "max": 255,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "weapondata",
+            "moduleName": "Weapon Data",
+            "triggerCondition": "",
+            "enableVariable": "Weapondata_Enabled",
+            "initCode": "",
+            "mainCode": "// Weapon data initialization\nif (!WeaponData_Initialized) {\n    InitializeWeaponData();\n    WeaponData_Initialized = TRUE;\n}",
+            "functionsCode": "function GetActiveWeapon() {\n    return CurrentWeapon;\n}\n\nfunction InitializeWeaponData() {\n    for (weapon_init_idx = 0; weapon_init_idx < WEAPON_COUNT; weapon_init_idx++) {\n        Weapons_RecoilValues[weapon_init_idx * 2] = 0;\n        Weapons_RecoilValues[weapon_init_idx * 2 + 1] = 0;\n    }\n}",
+            "comboCode": "",
+            "triggerCode": null,
+            "options": [],
+            "extraVars": {
+              "CurrentWeapon": "int [profile]",
+              "Weapons_RecoilValues": "int [216]",
+              "WeaponData_Initialized": "int",
+              "weapon_init_idx": "int"
+            },
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": [
+              "a",
+              "b",
+              "c"
+            ],
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null
+          }
+        },
+        {
+          "id": "f014c4b6-2955-4b9b-9461-29726a4b944d",
+          "type": "module",
+          "label": "Anti Recoil (Timeline)",
+          "position": {
+            "x": 820.0,
+            "y": 200.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AntiRecoilStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AR_TempV",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": -100,
+              "max": 100,
+              "arraySize": null
+            },
+            {
+              "name": "AR_TempH",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": -100,
+              "max": 100,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "antirecoil_timeline",
+            "moduleName": "Anti Recoil (Timeline)",
+            "triggerCondition": "",
+            "enableVariable": "AntiRecoilStatus",
+            "initCode": "",
+            "mainCode": "// Anti-recoil (phase-based) with per-weapon recoil curves\nif (AntiRecoilStatus && get_val(PS5_L2) && get_val(PS5_R2)) {\n    AntiRecoil_Timer++;\n    if (AntiRecoil_Timer >= ANTIRECOIL_INIT_DELAY) {\n        combo_run(AntiRecoilTimeline);\n    }\n} else {\n    AntiRecoil_Timer = 0;\n}",
+            "functionsCode": "define RECOIL_PHASES = 10;\ndefine RECOIL_PHASE_0_END = 8;\ndefine RECOIL_PHASE_1_END = 16;\ndefine RECOIL_PHASE_2_END = 28;\ndefine RECOIL_PHASE_3_END = 42;\ndefine RECOIL_PHASE_4_END = 60;\ndefine RECOIL_PHASE_5_END = 80;\ndefine RECOIL_PHASE_6_END = 105;\ndefine RECOIL_PHASE_7_END = 135;\ndefine RECOIL_PHASE_8_END = 175;\ndefine ANTIRECOIL_INIT_DELAY = 15;  // Skip first ~150ms of firing (minimal recoil)\nfunction GetRecoilPhase(fireTime) {\n    if (fireTime <= RECOIL_PHASE_0_END) { return 0; }\n    if (fireTime <= RECOIL_PHASE_1_END) { return 1; }\n    if (fireTime <= RECOIL_PHASE_2_END) { return 2; }\n    if (fireTime <= RECOIL_PHASE_3_END) { return 3; }\n    if (fireTime <= RECOIL_PHASE_4_END) { return 4; }\n    if (fireTime <= RECOIL_PHASE_5_END) { return 5; }\n    if (fireTime <= RECOIL_PHASE_6_END) { return 6; }\n    if (fireTime <= RECOIL_PHASE_7_END) { return 7; }\n    if (fireTime <= RECOIL_PHASE_8_END) { return 8; }\n    return 9;\n}\n\nfunction LoadRecoilPhases(weapon_id) {\n    for (_current_phase = 0; _current_phase < RECOIL_PHASES; _current_phase++) {\n        _recoil_phase_v[_current_phase] = WeaponRecoilTable[weapon_id][_current_phase * 2];\n        _recoil_phase_h[_current_phase] = WeaponRecoilTable[weapon_id][_current_phase * 2 + 1];\n    }\n    // Carry-forward: if phase N is 0 and phase N-1 is non-zero, inherit\n    for (_current_phase = 1; _current_phase < RECOIL_PHASES; _current_phase++) {\n        if (_recoil_phase_v[_current_phase] == 0 && _recoil_phase_v[_current_phase - 1] != 0) {\n            _recoil_phase_v[_current_phase] = _recoil_phase_v[_current_phase - 1];\n        }\n        if (_recoil_phase_h[_current_phase] == 0 && _recoil_phase_h[_current_phase - 1] != 0) {\n            _recoil_phase_h[_current_phase] = _recoil_phase_h[_current_phase - 1];\n        }\n    }\n    _last_recoil_weapon = weapon_id;\n}",
+            "comboCode": "combo AntiRecoilTimeline {\n    active_weapon = GetActiveWeapon();\n\n    // Load phase data when weapon changes\n    if (active_weapon != _last_recoil_weapon) {\n        LoadRecoilPhases(active_weapon);\n    }\n\n    // Determine current phase from fire timer\n    _current_phase = GetRecoilPhase(AntiRecoil_Timer);\n\n    // Phase recoil + per-weapon menu modifier\n    Recoil_Vertical = _recoil_phase_v[_current_phase] + Weapons_RecoilValues[active_weapon * 2];\n    Recoil_Horizontal = _recoil_phase_h[_current_phase] + Weapons_RecoilValues[active_weapon * 2 + 1];\n\n    // Advance LCG seed every cycle for well-distributed variance\n    _jitter_seed = (_jitter_seed * 1103515245 + 12345) ^ get_rtime();\n\n    // Per-cycle variance: +/-15% of base value, V and H derived independently\n    random_variance_v = (abs(_jitter_seed) % 31) - 15;\n    random_variance_h = (abs(_jitter_seed / 31) % 23) - 11;\n\n    // Apply recoil correction with randomness\n    if (Recoil_Vertical != 0) {\n        set_val(PS5_RY, clamp(get_val(PS5_RY) + Recoil_Vertical + (random_variance_v * abs(Recoil_Vertical) / 100), -100, 100));\n    }\n    if (Recoil_Horizontal != 0) {\n        set_val(PS5_RX, clamp(get_val(PS5_RX) + Recoil_Horizontal + (random_variance_h * abs(Recoil_Horizontal) / 100), -100, 100));\n    }\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AntiRecoilStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "V Mod.",
+                "variable": "AR_TempV",
+                "type": "value",
+                "defaultValue": 0,
+                "min": -100,
+                "max": 100,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "H Mod.",
+                "variable": "AR_TempH",
+                "type": "value",
+                "defaultValue": 0,
+                "min": -100,
+                "max": 100,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "active_weapon": "int",
+              "AR_EditWeapon": "int",
+              "AntiRecoil_Timer": "int",
+              "_last_recoil_weapon": "int",
+              "random_variance_h": "int",
+              "random_variance_v": "int",
+              "AntiRecoilTimeline_SubPage": "int",
+              "_recoil_phase_h": "int [10]",
+              "_recoil_phase_v": "int [10]",
+              "Recoil_Vertical": "int",
+              "_current_phase": "int",
+              "Recoil_Horizontal": "int"
+            },
+            "params": null,
+            "conflicts": [
+              "antirecoil",
+              "antirecoil_decay"
+            ],
+            "quickToggle": null,
+            "needsWeapondata": true,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null
+          }
+        },
+        {
+          "id": "0d904538-f932-47af-b353-ca4556c67587",
+          "type": "module",
+          "label": "Auto Ping",
+          "position": {
+            "x": 300.0,
+            "y": 340.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoPingStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "AutoPingInterval",
+              "type": "int",
+              "defaultValue": 1000,
+              "persist": true,
+              "min": 100,
+              "max": 2000,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "autoping",
+            "moduleName": "Auto Ping",
+            "triggerCondition": "",
+            "enableVariable": "AutoPingStatus",
+            "initCode": "",
+            "mainCode": "if (AutoPingStatus && get_val(PS5_L2) && event_press(PS5_R2)) {\n    combo_run(AutoPing);\n}",
+            "functionsCode": "",
+            "comboCode": "combo AutoPing {\n    set_val(AUTOPING_PING_BTN, 100);\n    wait(jitter(50));\n    set_val(AUTOPING_PING_BTN, 0);\n    wait(jitter(AutoPingInterval - 50));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AutoPingStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Interval",
+                "variable": "AutoPingInterval",
+                "type": "value",
+                "defaultValue": 1000,
+                "min": 100,
+                "max": 2000,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": {
+              "ping_btn": "PS5_UP"
+            },
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null
+          }
+        },
+        {
+          "id": "67f2b041-0fe9-4c77-8d35-e9c679606faa",
+          "type": "module",
+          "label": "Auto Run KB",
+          "position": {
+            "x": 560.0,
+            "y": 340.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "AutoRunKBStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "autorunkb",
+            "moduleName": "Auto Run KB",
+            "triggerCondition": "",
+            "enableVariable": "AutoRunKBStatus",
+            "initCode": "",
+            "mainCode": "if (AutoRunKBStatus) {\n    if (GetKeyboardKey(AUTORUNKB_ACTIVATE_KEY)) {\n        AutoRunKBActive = 1;\n    }\n    if (AutoRunKBActive) {\n        if (GetKeyboardKey(KEY_W) || GetKeyboardKey(KEY_A) ||\n            GetKeyboardKey(KEY_S) || GetKeyboardKey(KEY_D)) {\n            AutoRunKBActive = 0;\n        } else {\n            set_val(PS5_LY, -100);\n        }\n    }\n}",
+            "functionsCode": "",
+            "comboCode": "",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "AutoRunKBStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "AutoRunKBActive": "int"
+            },
+            "params": {
+              "activate_key": "KEY_G"
+            },
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null
+          }
+        },
+        {
+          "id": "9a1557c9-5f5a-42cb-b2e0-160ede358695",
+          "type": "module",
+          "label": "Keyboard",
+          "position": {
+            "x": 820.0,
+            "y": 340.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "KeyboardStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "keyboard",
+            "moduleName": "Keyboard",
+            "triggerCondition": "",
+            "enableVariable": "KeyboardStatus",
+            "initCode": "",
+            "mainCode": "// Keyboard-to-controller mapping\nif (KeyboardStatus) {\n    ApplyKeyboard();\n}",
+            "functionsCode": "",
+            "comboCode": "",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "KeyboardStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {},
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": [
+              {
+                "source": "KEY_P",
+                "sourceCombo": null,
+                "target": "PS5_PS",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_O",
+                "sourceCombo": null,
+                "target": "PS5_SHARE",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_LEFTSHIFT",
+                "sourceCombo": null,
+                "target": "PS5_L3",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_Q",
+                "sourceCombo": null,
+                "target": "PS5_L1",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_SPACE",
+                "sourceCombo": null,
+                "target": "PS5_CROSS",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_C",
+                "sourceCombo": null,
+                "target": "PS5_CIRCLE",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_1",
+                "sourceCombo": null,
+                "target": "PS5_TRIANGLE",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_R",
+                "sourceCombo": null,
+                "target": "PS5_SQUARE",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_E",
+                "sourceCombo": null,
+                "target": "PS5_SQUARE",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_G",
+                "sourceCombo": null,
+                "target": "PS5_UP",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_Z",
+                "sourceCombo": null,
+                "target": "PS5_DOWN",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_2",
+                "sourceCombo": null,
+                "target": "PS5_LEFT",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_F",
+                "sourceCombo": null,
+                "target": "PS5_RIGHT",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_M",
+                "sourceCombo": null,
+                "target": "PS5_TOUCH",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_TAB",
+                "sourceCombo": null,
+                "target": "PS5_TOUCH",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              },
+              {
+                "source": "KEY_ESC",
+                "sourceCombo": null,
+                "target": "PS5_OPTIONS",
+                "value": 100,
+                "type": "keyboard",
+                "enabled": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "8a1e24fa-5d60-44c8-97b3-e7e039c7406e",
+          "type": "module",
+          "label": "Rapid Fire",
+          "position": {
+            "x": 1080.0,
+            "y": 340.0
+          },
+          "gpcCode": "",
+          "oledScene": null,
+          "oledWidgets": [],
+          "comboCode": "",
+          "isInitialState": false,
+          "variables": [
+            {
+              "name": "RapidFireStatus",
+              "type": "int",
+              "defaultValue": 0,
+              "persist": true,
+              "min": null,
+              "max": null,
+              "arraySize": null
+            },
+            {
+              "name": "RapidFireSpeed",
+              "type": "int",
+              "defaultValue": 5,
+              "persist": true,
+              "min": 1,
+              "max": 10,
+              "arraySize": null
+            }
+          ],
+          "onEnter": "",
+          "onExit": "",
+          "initCode": "",
+          "chunkRef": null,
+          "subNodes": [],
+          "stackOffsetX": 0.0,
+          "stackOffsetY": 0.0,
+          "visibleCount": null,
+          "scrollMode": null,
+          "backButton": null,
+          "blockInputs": null,
+          "moduleData": {
+            "moduleId": "rapid",
+            "moduleName": "Rapid Fire",
+            "triggerCondition": "",
+            "enableVariable": "RapidFireStatus",
+            "initCode": "",
+            "mainCode": "if (RapidFireStatus && get_val(PS5_R2) && get_val(PS5_L2)) {\n    combo_run(RapidFire);\n} else {\n    combo_stop(RapidFire);\n}",
+            "functionsCode": "",
+            "comboCode": "combo RapidFire {\n    RapidFireActualSpeed = RapidFireSpeed * 20;\n    wait(jitter(RapidFireActualSpeed));\n    set_val(PS5_R2, 100);\n    wait(jitter(RapidFireActualSpeed));\n    set_val(PS5_R2, 0);\n    wait(jitter(RapidFireActualSpeed));\n}",
+            "triggerCode": null,
+            "options": [
+              {
+                "name": "Status",
+                "variable": "RapidFireStatus",
+                "type": "toggle",
+                "defaultValue": 0,
+                "min": null,
+                "max": null,
+                "arrayName": null,
+                "arraySize": null
+              },
+              {
+                "name": "Speed",
+                "variable": "RapidFireSpeed",
+                "type": "value",
+                "defaultValue": 5,
+                "min": 1,
+                "max": 10,
+                "arrayName": null,
+                "arraySize": null
+              }
+            ],
+            "extraVars": {
+              "RapidFireActualSpeed": "int"
+            },
+            "params": null,
+            "conflicts": [],
+            "quickToggle": null,
+            "needsWeapondata": false,
+            "weaponNames": null,
+            "weaponRecoilValues": null,
+            "adpProfiles": null,
+            "alwaysActive": null,
+            "keyboardMappings": null
+          }
+        }
+      ],
+      "edges": [],
+      "globalVariables": [],
+      "globalCode": "",
+      "settings": {
+        "screenTimeoutMs": 5000,
+        "defaultFont": "OLED_FONT_SMALL",
+        "includeCommonUtils": true,
+        "persistenceEnabled": true,
+        "buttonMapping": {
+          "confirm": "PS5_CROSS",
+          "cancel": "PS5_CIRCLE",
+          "up": "PS5_UP",
+          "down": "PS5_DOWN",
+          "left": "PS5_LEFT",
+          "right": "PS5_RIGHT"
+        }
+      },
+      "createdAt": 1772935721245,
+      "updatedAt": 1772936369372
+    }
+  ],
+  "sharedVariables": [
+    {
+      "name": "AimPolarStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AimPolarSize",
+      "type": "int",
+      "defaultValue": 15,
+      "persist": true,
+      "min": 1,
+      "max": 30,
+      "arraySize": null
+    },
+    {
+      "name": "AimPolarSpeed",
+      "type": "int",
+      "defaultValue": 20,
+      "persist": true,
+      "min": 5,
+      "max": 50,
+      "arraySize": null
+    },
+    {
+      "name": "AlwaysRunStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AlwaysRunThreshold",
+      "type": "int",
+      "defaultValue": 95,
+      "persist": true,
+      "min": 50,
+      "max": 100,
+      "arraySize": null
+    },
+    {
+      "name": "Weapondata_Enabled",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AntiRecoilStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AR_TempV",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": -100,
+      "max": 100,
+      "arraySize": null
+    },
+    {
+      "name": "AR_TempH",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": -100,
+      "max": 100,
+      "arraySize": null
+    },
+    {
+      "name": "AutoPingStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "AutoPingInterval",
+      "type": "int",
+      "defaultValue": 1000,
+      "persist": true,
+      "min": 100,
+      "max": 2000,
+      "arraySize": null
+    },
+    {
+      "name": "AutoRunKBStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "KeyboardStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "RapidFireStatus",
+      "type": "int",
+      "defaultValue": 0,
+      "persist": true,
+      "min": null,
+      "max": null,
+      "arraySize": null
+    },
+    {
+      "name": "RapidFireSpeed",
+      "type": "int",
+      "defaultValue": 5,
+      "persist": true,
+      "min": 1,
+      "max": 10,
+      "arraySize": null
+    }
+  ],
+  "sharedCode": "",
+  "updatedAt": 1772950246122
+}

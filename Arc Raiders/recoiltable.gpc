@@ -1,0 +1,8 @@
+// Weapon recoil table (10 phases x 2 axes per weapon)
+// Edit values in the Recoil tab or Spray Pattern tool
+const int8 WeaponRecoilTable[][] = {
+//  V0  H0  V1  H1  V2  H2  V3  H3  V4  H4  V5  H5  V6  H6  V7  H7  V8  H8  V9  H9
+    { 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0}, /*   0  a             */
+    { 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0}, /*   1  b             */
+    { 0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0}  /*   2  c             */
+};

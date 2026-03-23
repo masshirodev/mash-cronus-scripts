@@ -1,0 +1,11 @@
+{
+  "name": "Apex Legends",
+  "filename": "{username}-{gameabbr}-v{version}",
+  "version": 10,
+  "game_type": "fps",
+  "console_type": "ps5",
+  "username": "Mash",
+  "generation_mode": "flow",
+  "tags": null,
+  "header_comments": "Discord: masshiro_iro\nI hope you enjoy!"
+}

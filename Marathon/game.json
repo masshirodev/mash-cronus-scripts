@@ -1,0 +1,12 @@
+{
+  "name": "Marathon",
+  "filename": "{username}-{gameabbr}-v{version}",
+  "version": 6.1,
+  "game_type": "fps",
+  "console_type": "ps5",
+  "username": "Mash",
+  "generation_mode": "flow",
+  "tags": null,
+  "header_comments": "██▄  ▄██ ▄████▄ ▄█████ ▄█████ ██  ██ ██ █████▄  ▄████▄ \n██ ▀▀ ██ ██▄▄██ ▀▀▀▄▄▄ ▀▀▀▄▄▄ ██████ ██ ██▄▄██▄ ██  ██ \n██    ██ ██  ██ █████▀ █████▀ ██  ██ ██ ██   ██ ▀████▀ \n                                                       \nDiscord: masshiro_iro\nI hope you enjoy!",
+  "generate_module_info": true
+}
