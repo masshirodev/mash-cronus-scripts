@@ -12,7 +12,7 @@
 //
 // MODULES:
 // - Always Run: Automatically sprints when pushing the left stick forward past a threshold. Toggle: L1+Down
-// - Auto Run: Locks the left stick at 100% in the last direction when pushed past a threshold. Toggle: L1+Up
+// - Auto Run: Runs forward when active. Toggle: L1+Up
 // - Mash: Spams CROSS, SQUARE, CIRCLE or TRIANGLE. Can be useful for QTE. Toggle: L1+Right
 // - Fishing: Moves the right stick a full circle to reel in fish. Reels on L2+R2. Toggle: L1+Left
 // - Horse: Horse sprinting helper. Hold X to spam it so the horse gets to full speed, release it and let the script auto refresh the sprint. Toggle: L1+Circle
@@ -26,7 +26,7 @@
 // Version: 1
 // Game type: rpg
 // Console: ps5
-// Generated at: 3/23/2026, 6:46:13 PM
+// Generated at: 3/23/2026, 6:47:54 PM
 // ====================================================
 
 // ===== SHARED VARIABLES =====
